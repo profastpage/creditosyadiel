@@ -77,7 +77,7 @@ export default function NosotrosPage() {
           {/* Background Image */}
           <Image
             src="/hero-nosotros.webp"
-            alt="Sobre MANDI CORP"
+            alt="Sobre CRÉDITOS YADIEL"
             fill
             priority
             quality={75}
@@ -103,7 +103,7 @@ export default function NosotrosPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed">
-                En MANDI CORP creemos que cada persona merece acceso a
+                En CRÉDITOS YADIEL creemos que cada persona merece acceso a
                 soluciones financieras justas, transparentes y adaptadas a sus
                 necesidades reales.
               </p>
@@ -130,7 +130,7 @@ export default function NosotrosPage() {
               <div className="relative rounded-3xl overflow-hidden shadow-xl h-64 md:h-80">
                 <Image
                   src="/images/team-meeting.jpg"
-                  alt="Equipo de trabajo de MANDI CORP en reunión"
+                  alt="Equipo de trabajo de CRÉDITOS YADIEL en reunión"
                   fill
                   className="object-cover"
                   priority
@@ -144,7 +144,7 @@ export default function NosotrosPage() {
               <div className="relative rounded-3xl overflow-hidden shadow-xl h-64 md:h-80">
                 <Image
                   src="/images/office-building.jpg"
-                  alt="Oficinas de MANDI CORP en Lima, Perú"
+                  alt="Oficinas de CRÉDITOS YADIEL en Lima, Perú"
                   fill
                   className="object-cover"
                 />
@@ -162,7 +162,7 @@ export default function NosotrosPage() {
                 </h2>
                 <div className="space-y-4 text-slate-300 leading-relaxed">
                   <p>
-                    <strong className="text-white">MANDI CORP</strong> es una marca comercial de{" "}
+                    <strong className="text-white">CRÉDITOS YADIEL</strong> es una marca comercial de{" "}
                     <strong className="text-white">{SITE_CONFIG.businessName}</strong> (RUC: {SITE_CONFIG.ruc}),
                     una empresa peruana dedicada a brindar soluciones financieras
                     accesibles y confiables a miles de familias en todo el territorio
@@ -185,7 +185,7 @@ export default function NosotrosPage() {
                 </div>
                 <div className="flex flex-wrap gap-4 mt-8">
                   <div className="bg-white/[0.04] rounded-xl px-5 py-3">
-                    <p className="text-2xl font-bold text-[#DCAA61]">5K+</p>
+                    <p className="text-2xl font-bold text-[#C9A961]">5K+</p>
                     <p className="text-xs text-orange-400 mt-0.5">Clientes Atendidos</p>
                   </div>
                   <div className="bg-white/[0.04] rounded-xl px-5 py-3">
@@ -228,7 +228,7 @@ export default function NosotrosPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-14">
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gold-luxury tracking-tight">
-                Misión y <span className="text-[#DCAA61]">Visión</span>
+                Misión y <span className="text-[#C9A961]">Visión</span>
               </h2>
               <div className="mt-4 max-w-2xl mx-auto">
                 <p className="text-slate-400 leading-relaxed whitespace-nowrap w-max max-w-none mx-auto">
@@ -244,23 +244,23 @@ export default function NosotrosPage() {
               {/* MISIÓN */}
               <div className="relative group">
                 {/* Glow de fondo */}
-                <div className="absolute -inset-1 bg-gradient-to-br from-[#DCAA61]/20 via-transparent to-[#A97631]/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                <div className="relative bg-white/[0.03] backdrop-blur-md border border-white/[0.08] rounded-3xl p-8 sm:p-10 h-full hover:border-[#DCAA61]/20 transition-all duration-500">
+                <div className="absolute -inset-1 bg-gradient-to-br from-[#C9A961]/20 via-transparent to-[#9A7B3E]/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="relative bg-white/[0.03] backdrop-blur-md border border-white/[0.08] rounded-3xl p-8 sm:p-10 h-full hover:border-[#C9A961]/20 transition-all duration-500">
                   {/* Ícono decorativo */}
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#DCAA61]/20 to-[#A97631]/10 flex items-center justify-center mb-6 border border-[#DCAA61]/20">
-                    <Target className="w-7 h-7 text-[#DCAA61]" />
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#C9A961]/20 to-[#9A7B3E]/10 flex items-center justify-center mb-6 border border-[#C9A961]/20">
+                    <Target className="w-7 h-7 text-[#C9A961]" />
                   </div>
                   <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-4 tracking-tight">
-                    Nuestra <span className="text-[#DCAA61]">Misión</span>
+                    Nuestra <span className="text-[#C9A961]">Misión</span>
                   </h3>
-                  <div className="w-16 h-[2px] bg-gradient-to-r from-[#DCAA61] to-transparent mb-6" />
+                  <div className="w-16 h-[2px] bg-gradient-to-r from-[#C9A961] to-transparent mb-6" />
                   <p className="text-slate-300 leading-relaxed text-[15px]">
                     En <strong className="text-white">CORPORACIÓN MANDI SAC</strong>, nuestra misión es democratizar el acceso a soluciones crediticias en el Perú, ofreciendo productos financieros ágiles, transparentes y adaptados a las necesidades reales de cada cliente. Nos comprometemos a brindar una experiencia de servicio excepcional, eliminando barreras burocráticas y utilizando tecnología de punta para que cada persona pueda acceder al crédito que merece, en el momento que lo necesita, con condiciones claras y justas.
                   </p>
                   <div className="flex flex-wrap gap-3 mt-6">
-                    <span className="text-xs font-medium bg-[#DCAA61]/10 text-[#DCAA61] border border-[#DCAA61]/20 px-3 py-1.5 rounded-full">Inclusión Financiera</span>
-                    <span className="text-xs font-medium bg-[#DCAA61]/10 text-[#DCAA61] border border-[#DCAA61]/20 px-3 py-1.5 rounded-full">Transparencia Total</span>
-                    <span className="text-xs font-medium bg-[#DCAA61]/10 text-[#DCAA61] border border-[#DCAA61]/20 px-3 py-1.5 rounded-full">Servicio Personalizado</span>
+                    <span className="text-xs font-medium bg-[#C9A961]/10 text-[#C9A961] border border-[#C9A961]/20 px-3 py-1.5 rounded-full">Inclusión Financiera</span>
+                    <span className="text-xs font-medium bg-[#C9A961]/10 text-[#C9A961] border border-[#C9A961]/20 px-3 py-1.5 rounded-full">Transparencia Total</span>
+                    <span className="text-xs font-medium bg-[#C9A961]/10 text-[#C9A961] border border-[#C9A961]/20 px-3 py-1.5 rounded-full">Servicio Personalizado</span>
                   </div>
                 </div>
               </div>
@@ -268,23 +268,23 @@ export default function NosotrosPage() {
               {/* VISIÓN */}
               <div className="relative group">
                 {/* Glow de fondo */}
-                <div className="absolute -inset-1 bg-gradient-to-br from-[#F5E6C8]/15 via-transparent to-[#DCAA61]/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                <div className="relative bg-white/[0.03] backdrop-blur-md border border-white/[0.08] rounded-3xl p-8 sm:p-10 h-full hover:border-[#DCAA61]/20 transition-all duration-500">
+                <div className="absolute -inset-1 bg-gradient-to-br from-[#E8D5A0]/15 via-transparent to-[#C9A961]/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="relative bg-white/[0.03] backdrop-blur-md border border-white/[0.08] rounded-3xl p-8 sm:p-10 h-full hover:border-[#C9A961]/20 transition-all duration-500">
                   {/* Ícono decorativo */}
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#F5E6C8]/15 to-[#DCAA61]/10 flex items-center justify-center mb-6 border border-[#DCAA61]/20">
-                    <Eye className="w-7 h-7 text-[#F5E6C8]" />
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#E8D5A0]/15 to-[#C9A961]/10 flex items-center justify-center mb-6 border border-[#C9A961]/20">
+                    <Eye className="w-7 h-7 text-[#E8D5A0]" />
                   </div>
                   <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-4 tracking-tight">
-                    Nuestra <span className="text-[#F5E6C8]">Visión</span>
+                    Nuestra <span className="text-[#E8D5A0]">Visión</span>
                   </h3>
-                  <div className="w-16 h-[2px] bg-gradient-to-r from-[#F5E6C8] to-transparent mb-6" />
+                  <div className="w-16 h-[2px] bg-gradient-to-r from-[#E8D5A0] to-transparent mb-6" />
                   <p className="text-slate-300 leading-relaxed text-[15px]">
-                    Ser reconocidos como la empresa líder en soluciones crediticias accesibles del Perú, destacando por la innovación tecnológica, la excelencia en el servicio al cliente y el compromiso irrestricto con la responsabilidad financiera. Aspiramos a transformar el ecosistema crediticio peruano, consolidando a <strong className="text-white">MANDI CORP</strong> como sinónimo de confianza, eficiencia y crecimiento económico para miles de familias y emprendedores en todo el territorio nacional.
+                    Ser reconocidos como la empresa líder en soluciones crediticias accesibles del Perú, destacando por la innovación tecnológica, la excelencia en el servicio al cliente y el compromiso irrestricto con la responsabilidad financiera. Aspiramos a transformar el ecosistema crediticio peruano, consolidando a <strong className="text-white">CRÉDITOS YADIEL</strong> como sinónimo de confianza, eficiencia y crecimiento económico para miles de familias y emprendedores en todo el territorio nacional.
                   </p>
                   <div className="flex flex-wrap gap-3 mt-6">
-                    <span className="text-xs font-medium bg-[#F5E6C8]/10 text-[#F5E6C8] border border-[#F5E6C8]/20 px-3 py-1.5 rounded-full">Liderazgo Nacional</span>
-                    <span className="text-xs font-medium bg-[#F5E6C8]/10 text-[#F5E6C8] border border-[#F5E6C8]/20 px-3 py-1.5 rounded-full">Innovación Continua</span>
-                    <span className="text-xs font-medium bg-[#F5E6C8]/10 text-[#F5E6C8] border border-[#F5E6C8]/20 px-3 py-1.5 rounded-full">Crecimiento Conjunto</span>
+                    <span className="text-xs font-medium bg-[#E8D5A0]/10 text-[#E8D5A0] border border-[#E8D5A0]/20 px-3 py-1.5 rounded-full">Liderazgo Nacional</span>
+                    <span className="text-xs font-medium bg-[#E8D5A0]/10 text-[#E8D5A0] border border-[#E8D5A0]/20 px-3 py-1.5 rounded-full">Innovación Continua</span>
+                    <span className="text-xs font-medium bg-[#E8D5A0]/10 text-[#E8D5A0] border border-[#E8D5A0]/20 px-3 py-1.5 rounded-full">Crecimiento Conjunto</span>
                   </div>
                 </div>
               </div>
@@ -298,7 +298,7 @@ export default function NosotrosPage() {
             <div className="grid lg:grid-cols-3 gap-12 items-start">
               <div className="lg:col-span-2">
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-gold-luxury tracking-tight mb-4">
-                  Nuestros <span className="text-[#DCAA61]">Valores</span>
+                  Nuestros <span className="text-[#C9A961]">Valores</span>
                 </h2>
                 <p className="text-slate-400 max-w-2xl mb-12">
                   Cada decisión que tomamos está guiada por estos principios fundamentales que definen nuestra identidad como empresa.
@@ -307,7 +307,7 @@ export default function NosotrosPage() {
                   {VALUES.map((v) => (
                     <div key={v.title} className="bg-white/[0.02] backdrop-blur-md rounded-2xl p-6 border border-white/5 hover:shadow-xl hover:shadow-black/20 transition-shadow duration-300">
                       <div className="w-12 h-12 rounded-xl bg-white/[0.06] flex items-center justify-center mb-4">
-                        <v.icon className="w-6 h-6 text-[#DCAA61]" />
+                        <v.icon className="w-6 h-6 text-[#C9A961]" />
                       </div>
                       <h3 className="text-lg font-bold text-white mb-2">{v.title}</h3>
                       <p className="text-sm text-slate-400 leading-relaxed">{v.desc}</p>
@@ -319,7 +319,7 @@ export default function NosotrosPage() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30 sticky top-24">
                   <Image
                     src="/images/office-team.jpg"
-                    alt="Equipo de trabajo colaborando en oficinas de MANDI CORP"
+                    alt="Equipo de trabajo colaborando en oficinas de CRÉDITOS YADIEL"
                     width={360}
                     height={480}
                     className="w-full h-auto object-cover rounded-3xl"
@@ -335,9 +335,9 @@ export default function NosotrosPage() {
         <section id="legal" className="py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <Scale className="w-10 h-10 text-[#DCAA61] mx-auto mb-4" />
+              <Scale className="w-10 h-10 text-[#C9A961] mx-auto mb-4" />
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gold-luxury tracking-tight">
-                Información <span className="text-[#DCAA61]">Legal</span>
+                Información <span className="text-[#C9A961]">Legal</span>
               </h2>
               <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
                 Cumplimos con todas las normativas legales vigentes para garantizar tu protección y seguridad como consumidor financiero.
@@ -358,8 +358,8 @@ export default function NosotrosPage() {
         <section id="contacto" className="py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="bg-white/[0.02] backdrop-blur-md border border-white/5 rounded-3xl p-10 sm:p-16 text-center shadow-2xl relative overflow-hidden">
-              <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#DCAA61]/10 rounded-full blur-[80px] pointer-events-none" />
-              <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#A97631]/10 rounded-full blur-[80px] pointer-events-none" />
+              <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#C9A961]/10 rounded-full blur-[80px] pointer-events-none" />
+              <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#9A7B3E]/10 rounded-full blur-[80px] pointer-events-none" />
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gold-luxury tracking-tight">
                 ¿Necesitas más información?
               </h2>

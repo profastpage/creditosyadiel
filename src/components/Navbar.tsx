@@ -10,21 +10,21 @@ import { NAV_LINKS } from "@/lib/constants";
 import { getDynamicWhatsAppUrl } from "@/lib/whatsapp";
 
 /* ═══════════════════════════════════════════════════════════════
-    CREAM PREMIUM PALETTE — MANDI CORP
+    PREMIUM PALETTE — CRÉDITOS YADIEL
    ═══════════════════════════════════════════════════════════════ */
 const CREAM = {
-  bg: "#e5ded6",
-  bgAlt: "#e1d8d1",
-  text: "#2c2c2c",
-  textMuted: "#6b6460",
-  gold: "#B8860B",
-  goldLight: "#D4AF37",
-  goldDark: "#8B6508",
-  goldGlow: "rgba(184, 134, 11, 0.15)",
+  bg: "#1B3A57",
+  bgAlt: "#163049",
+  text: "#ffffff",
+  textMuted: "#94a3b8",
+  gold: "#C9A961",
+  goldLight: "#D4BC7A",
+  goldDark: "#9A7B3E",
+  goldGlow: "rgba(201, 169, 97, 0.15)",
   white: "#FFFFFF",
-  border: "rgba(0, 0, 0, 0.06)",
+  border: "rgba(201, 169, 97, 0.15)",
   whatsapp: "#25D366",
-  whatsappBg: "#e6f7ef",
+  whatsappBg: "rgba(37, 211, 102, 0.08)",
 };
 
 /* ═══════════════════════════════════════════════════════════════
@@ -69,15 +69,15 @@ export default function Navbar() {
     };
   }, [isOpen]);
 
-  // ── Listener para el evento 'mandi:open-drawer' ──────────────────
+  // ── Listener para el evento 'yadiel:open-drawer' ──────────────────
   useEffect(() => {
     const handleOpenDrawer = () => setIsOpen(true);
     if (typeof window !== "undefined") {
-      window.addEventListener("mandi:open-drawer", handleOpenDrawer);
+      window.addEventListener("yadiel:open-drawer", handleOpenDrawer);
     }
     return () => {
       if (typeof window !== "undefined") {
-        window.removeEventListener("mandi:open-drawer", handleOpenDrawer);
+        window.removeEventListener("yadiel:open-drawer", handleOpenDrawer);
       }
     };
   }, []);
@@ -93,19 +93,18 @@ export default function Navbar() {
   /* ═══════════════════════════════════════════════════════════════
       DYNAMIC COLORS — two states:
       · !scrolled → full bleed transparent (white text on dark hero)
-      · scrolled  → cream solid (#e5ded6, dark text)
+      · scrolled  → azul oscuro solid (#1B3A57, white/gold text)
   ═══════════════════════════════════════════════════════════════ */
-  const navTextColor = isScrolled ? CREAM.text : "rgba(255,255,255,0.9)";
+  const navTextColor = isScrolled ? CREAM.white : "rgba(255,255,255,0.9)";
   const navActiveColor = CREAM.goldLight; // gold stays gold always
-  const btnTextColor = isScrolled ? CREAM.text : "rgba(255,255,255,0.9)";
-  const menuIconColor = isScrolled ? CREAM.text : "rgba(255,255,255,0.9)";
+  const btnTextColor = isScrolled ? CREAM.white : "rgba(255,255,255,0.9)";
+  const menuIconColor = isScrolled ? CREAM.white : "rgba(255,255,255,0.9)";
   const waBtnBg = isScrolled ? CREAM.whatsappBg : "rgba(37, 211, 102, 0.1)";
   const waBtnBorder = isScrolled ? "rgba(37, 211, 102, 0.2)" : "rgba(37, 211, 102, 0.3)";
-  const hoverBg = isScrolled ? "rgba(0, 0, 0, 0.04)" : "rgba(255, 255, 255, 0.08)";
+  const hoverBg = isScrolled ? "rgba(255, 255, 255, 0.06)" : "rgba(255, 255, 255, 0.08)";
 
-  /* ── Logo: gold when transparent, normal when scrolled ── */
-  const logoSrc = isScrolled ? "/logo-mandi.png" : "/logo-transparent.png";
-  const logoAspect = isScrolled ? "3756 / 894" : "1804 / 554";
+  /* ── Logo: always the same logo ── */
+  const logoSrc = "/logo-yadiel.png";
 
   return (
     <>
@@ -113,7 +112,7 @@ export default function Navbar() {
           HEADER — TWO STATES
           ─────────────────────────────────────────────────────────────
           · Full bleed transparent (top): fondo transparente, texto blanco, dorado activo
-          · Cream solid (scrolled): fondo #e5ded6, texto oscuro, dorado activo
+          · Azul oscuro solid (scrolled): fondo #1B3A57, texto blanco, dorado activo
       ═══════════════════════════════════════════════════════════════ */}
       <header
         className="fixed top-0 left-0 right-0 z-50 flex items-center h-16 sm:h-[72px] transition-all duration-500"
@@ -122,7 +121,7 @@ export default function Navbar() {
             ? {
                 background: `linear-gradient(180deg, ${CREAM.bg} 0%, ${CREAM.bgAlt} 100%)`,
                 borderBottom: `1px solid ${CREAM.border}`,
-                boxShadow: "0 1px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02)",
+                boxShadow: "0 1px 8px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1)",
               }
             : {
                 background: "transparent",
@@ -135,16 +134,15 @@ export default function Navbar() {
           className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
           aria-label="Navegación principal"
         >
-          {/* ── LOGO — Swaps: gold (transparent) ↔ normal (scrolled) ── */}
+          {/* ── LOGO ── */}
           <Link
             href="/"
-            className="relative shrink-0 w-[130px] md:w-[190px]"
-            style={{ aspectRatio: logoAspect }}
-            aria-label="MANDI CORP - Inicio"
+            className="relative shrink-0 w-[130px] md:w-[190px] h-10 md:h-12"
+            aria-label="CRÉDITOS YADIEL - Inicio"
           >
             <Image
               src={logoSrc}
-              alt="Logo MANDI CORP"
+              alt="Logo CRÉDITOS YADIEL"
               fill
               priority
               sizes="(max-width: 768px) 200px, 340px"
@@ -162,7 +160,7 @@ export default function Navbar() {
                   href={link.href}
                   className="relative px-3.5 py-2 text-[13px] font-medium tracking-wide rounded-lg transition-all duration-300 group"
                 >
-                  {/* Text — white when transparent, dark when cream; gold stays gold */}
+                  {/* Text — white when transparent, white when scrolled; gold stays gold */}
                   <span
                     className="relative z-10 transition-all duration-300"
                     style={{
@@ -222,7 +220,7 @@ export default function Navbar() {
               style={{
                 background: `linear-gradient(135deg, ${CREAM.goldDark} 0%, ${CREAM.gold} 50%, ${CREAM.goldLight} 100%)`,
                 color: CREAM.white,
-                boxShadow: "0 2px 12px rgba(184, 134, 11, 0.2)",
+                boxShadow: "0 2px 12px rgba(201, 169, 97, 0.25)",
               }}
               aria-label="Llamar por teléfono"
             >
@@ -246,7 +244,7 @@ export default function Navbar() {
       </header>
 
       {/* ═══════════════════════════════════════════════════════════════
-          MOBILE DRAWER — CREAM PREMIUM (always cream)
+          MOBILE DRAWER — AZUL OSCURO PREMIUM (always dark blue)
       ═══════════════════════════════════════════════════════════════ */}
       <AnimatePresence>
         {isOpen && (
@@ -265,12 +263,12 @@ export default function Navbar() {
               transition={{ duration: 0.25 }}
               className="absolute inset-0 backdrop-blur-sm"
               style={{
-                background: "rgba(0, 0, 0, 0.3)",
+                background: "rgba(0, 0, 0, 0.5)",
               }}
               onClick={closeMenu}
             />
 
-            {/* Panel — Cream premium slide-in */}
+            {/* Panel — Azul oscuro premium slide-in */}
             <motion.div
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
@@ -284,7 +282,7 @@ export default function Navbar() {
               className="absolute right-0 top-0 bottom-0 w-[82%] max-w-[380px] flex flex-col overflow-hidden"
               style={{
                 background: `linear-gradient(180deg, ${CREAM.bg} 0%, ${CREAM.bgAlt} 100%)`,
-                boxShadow: "-10px 0 40px rgba(0, 0, 0, 0.1)",
+                boxShadow: "-10px 0 40px rgba(0, 0, 0, 0.3)",
               }}
             >
               {/* Panel Header — Logo + Close */}
@@ -295,12 +293,11 @@ export default function Navbar() {
                 }}
               >
                 <div
-                  className="relative shrink-0 w-[150px]"
-                  style={{ aspectRatio: "3756 / 894" }}
+                  className="relative shrink-0 w-[150px] h-10"
                 >
                   <Image
-                    src="/logo-mandi.png"
-                    alt="MANDI CORP"
+                    src="/logo-yadiel.png"
+                    alt="CRÉDITOS YADIEL"
                     fill
                     className="object-contain object-left"
                   />
@@ -309,7 +306,7 @@ export default function Navbar() {
                   onClick={closeMenu}
                   className="p-2.5 rounded-xl transition-all duration-200 active:scale-90"
                   style={{
-                    background: "rgba(0, 0, 0, 0.05)",
+                    background: "rgba(255, 255, 255, 0.08)",
                     border: `1px solid ${CREAM.border}`,
                     color: CREAM.textMuted,
                   }}
@@ -342,13 +339,13 @@ export default function Navbar() {
                           style={
                             isActive
                               ? {
-                                  background: "rgba(184, 134, 11, 0.08)",
+                                  background: "rgba(201, 169, 97, 0.12)",
                                   borderLeft: `3px solid ${CREAM.goldLight}`,
-                                  color: CREAM.goldDark,
+                                  color: CREAM.goldLight,
                                   fontWeight: 700,
                                 }
                               : {
-                                  color: CREAM.text,
+                                  color: CREAM.white,
                                   borderLeft: "3px solid transparent",
                                 }
                           }
@@ -360,7 +357,7 @@ export default function Navbar() {
                             <div
                               className="absolute inset-0 rounded-xl opacity-0 active:opacity-100 transition-opacity duration-200 pointer-events-none"
                               style={{
-                                background: "rgba(0, 0, 0, 0.03)",
+                                background: "rgba(255, 255, 255, 0.04)",
                               }}
                             />
                           )}
@@ -390,7 +387,7 @@ export default function Navbar() {
                   style={{
                     background: CREAM.whatsappBg,
                     border: `1px solid rgba(37, 211, 102, 0.2)`,
-                    color: CREAM.text,
+                    color: CREAM.white,
                   }}
                 >
                   <WhatsAppIcon className="w-5 h-5 text-[#25D366]" />
@@ -404,7 +401,7 @@ export default function Navbar() {
                   style={{
                     background: `linear-gradient(135deg, ${CREAM.goldDark} 0%, ${CREAM.gold} 50%, ${CREAM.goldLight} 100%)`,
                     color: CREAM.white,
-                    boxShadow: "0 4px 16px rgba(184, 134, 11, 0.2)",
+                    boxShadow: "0 4px 16px rgba(201, 169, 97, 0.25)",
                   }}
                 >
                   <Phone className="w-5 h-5" />
@@ -415,7 +412,7 @@ export default function Navbar() {
                   className="text-center text-[11px] mt-5 leading-relaxed"
                   style={{ color: CREAM.textMuted }}
                 >
-                  CORPORACIÓN MANDI SAC
+                  CRÉDITOS YADIEL
                   <br />
                   RUC: 20615991938
                 </p>

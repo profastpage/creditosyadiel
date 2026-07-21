@@ -8,15 +8,14 @@ import { Home, Wallet, Car, Menu } from "lucide-react";
 import { getDynamicWhatsAppUrl } from "@/lib/whatsapp";
 
 /* ═══════════════════════════════════════════════════════════════
-    MANDI CORP — Bottom Navigation Mobile (Ultra Premium v2)
+    CRÉDITOS YADIEL — Bottom Navigation Mobile (Ultra Premium v2)
     ─────────────────────────────────────────────────────────────
     · 5 tabs: Inicio, Préstamos, WhatsApp CTA, Garantía, Más
     · WhatsApp: botón circular protruding, verde oficial, ícono real
     · Solo visible < 1024px (lg:hidden)
-    · Fondo negro MANDI #060503
-    · Borde superior dorado #DCAA61
-    · Esquinas superiores redondeadas + blur + sombra
-    · "Más" dispara evento 'mandi:open-drawer' que escucha el Navbar
+    · Fondo negro YADIEL #0A0F14
+    · Borde superior dorado #C9A961
+    · "Más" dispara evento 'yadiel:open-drawer' que escucha el Navbar
    ═══════════════════════════════════════════════════════════════ */
 
 type NavItem = {
@@ -65,7 +64,7 @@ export default function BottomNav() {
 
   const openDrawer = () => {
     if (typeof window !== "undefined") {
-      window.dispatchEvent(new CustomEvent("mandi:open-drawer"));
+      window.dispatchEvent(new CustomEvent("yadiel:open-drawer"));
     }
   };
 
@@ -86,11 +85,11 @@ export default function BottomNav() {
         <div
           className="relative mx-auto"
           style={{
-            background: "linear-gradient(180deg, #060503 0%, #000000 100%)",
+            background: "linear-gradient(180deg, #0A0F14 0%, #000000 100%)",
             borderTopLeftRadius: "20px",
             borderTopRightRadius: "20px",
             boxShadow:
-              "0 -8px 32px rgba(0, 0, 0, 0.6), 0 -1px 0 rgba(220, 170, 97, 0.4) inset",
+              "0 -8px 32px rgba(0, 0, 0, 0.6), 0 -1px 0 rgba(201, 169, 97, 0.4) inset",
             overflow: "visible",
           }}
         >
@@ -99,7 +98,7 @@ export default function BottomNav() {
             className="absolute top-0 left-0 right-0 h-[2px] rounded-t-[20px]"
             style={{
               background:
-                "linear-gradient(90deg, transparent 0%, #6D4B21 15%, #A97631 30%, #DCAA61 50%, #F5E6C8 55%, #DCAA61 70%, #A97631 85%, transparent 100%)",
+                "linear-gradient(90deg, transparent 0%, #1B3A57 15%, #9A7B3E 30%, #C9A961 50%, #E8D5A0 55%, #C9A961 70%, #9A7B3E 85%, transparent 100%)",
             }}
           />
 
@@ -108,7 +107,7 @@ export default function BottomNav() {
             className="absolute top-0 left-1/2 -translate-x-1/2 w-[60%] h-[40px] pointer-events-none"
             style={{
               background:
-                "radial-gradient(ellipse at center top, rgba(220, 170, 97, 0.18) 0%, transparent 70%)",
+                "radial-gradient(ellipse at center top, rgba(201, 169, 97, 0.18) 0%, transparent 70%)",
             }}
           />
 
@@ -130,8 +129,8 @@ export default function BottomNav() {
                       <Icon
                         className={`w-5 h-5 transition-colors duration-200 ${
                           active
-                            ? "text-[#DCAA61]"
-                            : "text-slate-400 group-active:text-[#DCAA61]"
+                            ? "text-[#C9A961]"
+                            : "text-slate-400 group-active:text-[#C9A961]"
                         }`}
                       />
                       {/* Glow cuando activo */}
@@ -142,7 +141,7 @@ export default function BottomNav() {
                             initial={{ opacity: 0, scale: 0.5 }}
                             animate={{ opacity: 1, scale: 1.4 }}
                             transition={{ duration: 0.3 }}
-                            className="absolute inset-0 -m-2 rounded-full bg-[#DCAA61]/15 pointer-events-none"
+                            className="absolute inset-0 -m-2 rounded-full bg-[#C9A961]/15 pointer-events-none"
                           />
                         )}
                       </AnimatePresence>
@@ -158,8 +157,8 @@ export default function BottomNav() {
                             className="absolute -top-2 left-1/2 -translate-x-1/2 h-[3px] rounded-full"
                             style={{
                               background:
-                                "linear-gradient(90deg, #A97631 0%, #DCAA61 50%, #F5E6C8 100%)",
-                              boxShadow: "0 0 8px rgba(220, 170, 97, 0.6)",
+                                "linear-gradient(90deg, #9A7B3E 0%, #C9A961 50%, #E8D5A0 100%)",
+                              boxShadow: "0 0 8px rgba(201, 169, 97, 0.6)",
                             }}
                           />
                         )}
@@ -168,8 +167,8 @@ export default function BottomNav() {
                     <span
                       className={`text-[10px] font-medium tracking-wide transition-colors duration-200 ${
                         active
-                          ? "text-[#DCAA61]"
-                          : "text-slate-400 group-active:text-[#DCAA61]"
+                          ? "text-[#C9A961]"
+                          : "text-slate-400 group-active:text-[#C9A961]"
                       }`}
                     >
                       {item.label}
@@ -231,10 +230,10 @@ export default function BottomNav() {
                       aria-label="Abrir menú completo"
                     >
                       <span className="relative flex items-center justify-center">
-                        <Icon className="w-5 h-5 text-slate-400 group-active:text-[#DCAA61] transition-colors duration-200" />
-                        <span className="absolute inset-0 -m-2 rounded-full bg-[#DCAA61]/0 group-active:bg-[#DCAA61]/15 transition-colors duration-200" />
+                        <Icon className="w-5 h-5 text-slate-400 group-active:text-[#C9A961] transition-colors duration-200" />
+                        <span className="absolute inset-0 -m-2 rounded-full bg-[#C9A961]/0 group-active:bg-[#C9A961]/15 transition-colors duration-200" />
                       </span>
-                      <span className="text-[10px] font-medium tracking-wide text-slate-400 group-active:text-[#DCAA61] transition-colors duration-200">
+                      <span className="text-[10px] font-medium tracking-wide text-slate-400 group-active:text-[#C9A961] transition-colors duration-200">
                         {item.label}
                       </span>
                     </button>
@@ -254,8 +253,8 @@ export default function BottomNav() {
                       <Icon
                         className={`w-5 h-5 transition-colors duration-200 ${
                           active
-                            ? "text-[#DCAA61]"
-                            : "text-slate-400 group-active:text-[#DCAA61]"
+                            ? "text-[#C9A961]"
+                            : "text-slate-400 group-active:text-[#C9A961]"
                         }`}
                       />
                       <AnimatePresence>
@@ -265,7 +264,7 @@ export default function BottomNav() {
                             initial={{ opacity: 0, scale: 0.5 }}
                             animate={{ opacity: 1, scale: 1.4 }}
                             transition={{ duration: 0.3 }}
-                            className="absolute inset-0 -m-2 rounded-full bg-[#DCAA61]/15 pointer-events-none"
+                            className="absolute inset-0 -m-2 rounded-full bg-[#C9A961]/15 pointer-events-none"
                           />
                         )}
                       </AnimatePresence>
@@ -280,8 +279,8 @@ export default function BottomNav() {
                             className="absolute -top-2 left-1/2 -translate-x-1/2 h-[3px] rounded-full"
                             style={{
                               background:
-                                "linear-gradient(90deg, #A97631 0%, #DCAA61 50%, #F5E6C8 100%)",
-                              boxShadow: "0 0 8px rgba(220, 170, 97, 0.6)",
+                                "linear-gradient(90deg, #9A7B3E 0%, #C9A961 50%, #E8D5A0 100%)",
+                              boxShadow: "0 0 8px rgba(201, 169, 97, 0.6)",
                             }}
                           />
                         )}
@@ -290,8 +289,8 @@ export default function BottomNav() {
                     <span
                       className={`text-[10px] font-medium tracking-wide transition-colors duration-200 ${
                         active
-                          ? "text-[#DCAA61]"
-                          : "text-slate-400 group-active:text-[#DCAA61]"
+                          ? "text-[#C9A961]"
+                          : "text-slate-400 group-active:text-[#C9A961]"
                       }`}
                     >
                       {item.label}

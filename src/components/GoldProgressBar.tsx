@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 /**
- * MANDI CORP — Barra de Progreso Dorada
+ * CRÉDITOS YADIEL — Barra de Progreso Dorada
  * Barra fija superior que avanza 0→100% con el scroll.
  * Gradiente dorado premium con glow metálico.
  */
@@ -31,9 +31,9 @@ export default function GoldProgressBar() {
         style={{
           width: `${progress}%`,
           background:
-            "linear-gradient(90deg, #8B6508 0%, #C5A059 20%, #D4AF37 40%, #F9D976 55%, #D4AF37 70%, #C5A059 85%, #8B6508 100%)",
+            "linear-gradient(90deg, #9A7B3E 0%, #C9A961 20%, #D4BC7A 40%, #E8D5A0 55%, #D4BC7A 70%, #C9A961 85%, #9A7B3E 100%)",
           boxShadow:
-            "0 0 6px rgba(212, 175, 55, 0.5), 0 0 12px rgba(212, 175, 55, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)",
+            "0 0 6px rgba(201, 169, 97, 0.5), 0 0 12px rgba(201, 169, 97, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)",
           borderRadius: "0 2px 2px 0",
         }}
       />

@@ -1,18 +1,18 @@
 /**
- * Site-wide constants for MANDI CORP
+ * Site-wide constants for CRÉDITOS YADIEL
  * Razón Social: CORPORACIÓN MANDI SAC
  * RUC: 20615991938
  */
 
 export const SITE_CONFIG = {
-  name: "MANDI CORP",
+  name: "CRÉDITOS YADIEL",
   businessName: "CORPORACIÓN MANDI SAC",
   ruc: "20615991938",
   phone: "+51966897008",
   phoneDisplay: "+51 966 897 008",
-  email: "contacto@mandicorp.com",
-  domain: "mandi-corp.vercel.app",
-  url: "https://mandi-corp.vercel.app",
+  email: "contacto@creditosyadiel.com",
+  domain: "creditosyadiel.vercel.app",
+  url: "https://creditosyadiel.vercel.app",
   description:
     "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. El momento es ahora.",
   keywords: [
@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
     "garantía de auto",
     "Procustodia",
     "financiera Perú",
-    "MANDI CORP",
+    "CRÉDITOS YADIEL",
     "CORPORACIÓN MANDI SAC",
     "crédito al instante",
     "dinero rápido",

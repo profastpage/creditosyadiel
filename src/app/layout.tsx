@@ -15,13 +15,13 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: "#060503",
+  themeColor: "#0A0F14",
 };
 
 export const metadata: Metadata = {
   title: {
-    default: "MANDI CORP — Préstamos Personales y Garantía Vehicular en Perú",
-    template: "%s | MANDI CORP",
+    default: "CRÉDITOS YADIEL — Préstamos Personales y Garantía Vehicular en Perú",
+    template: "%s | CRÉDITOS YADIEL",
   },
   description:
     "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. CORPORACIÓN MANDI SAC (RUC: 20615991938).",
@@ -32,23 +32,23 @@ export const metadata: Metadata = {
     "garantía de auto",
     "Procustodia",
     "financiera Perú",
-    "MANDI CORP",
+    "CRÉDITOS YADIEL",
     "CORPORACIÓN MANDI SAC",
     "crédito al instante",
     "dinero rápido",
     "RUC 20615991938",
   ],
   authors: [{ name: "CORPORACIÓN MANDI SAC" }],
-  metadataBase: new URL("https://mandi-corp.vercel.app"),
+  metadataBase: new URL("https://creditosyadiel.vercel.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "MANDI CORP — Tu Solución Financiera de Confianza",
+    title: "CRÉDITOS YADIEL — Tu Solución Financiera de Confianza",
     description:
       "Préstamos personales al instante y préstamos con garantía vehicular. Tu aliado financiero confiable en Perú.",
-    url: "https://mandi-corp.vercel.app",
-    siteName: "MANDI CORP",
+    url: "https://creditosyadiel.vercel.app",
+    siteName: "CRÉDITOS YADIEL",
     locale: "es_PE",
     type: "website",
     images: [
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "MANDI CORP — Préstamos Personales y Garantía Vehicular",
+        alt: "CRÉDITOS YADIEL — Préstamos Personales y Garantía Vehicular",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MANDI CORP — Préstamos Rápidos y Seguros",
+    title: "CRÉDITOS YADIEL — Préstamos Rápidos y Seguros",
     description:
       "Consigue tu préstamo en minutos. Préstamos personales y con garantía vehicular.",
     images: ["/og-image.webp"],

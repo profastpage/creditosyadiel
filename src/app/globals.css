@@ -41,37 +41,37 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  /* ── MANDI CORP Brand Colors (Negro + Dorado) ── */
-  --color-brand-blue: #DCAA61;   /* alias legacy → dorado principal */
-  --color-brand-dark: #060503;   /* negro principal MANDI */
-  --color-brand-green: #A97631;  /* alias legacy → dorado oscuro */
-  --color-brand-orange: #DCAA61; /* dorado principal MANDI */
-  --color-brand-red: #A97631;    /* alias legacy → dorado oscuro */
 
-  /* ── Override Tailwind orange palette → MANDI Gold palette ── */
-  /* Mantener nombres orange-* para no tocar componentes; valores mapeados a dorado MANDI */
-  --color-orange-300: #E0CBAB;  /* gold-light (crema dorado) */
-  --color-orange-400: #DCAA61;  /* gold-primary (dorado principal) */
-  --color-orange-500: #DCAA61;  /* gold-primary (dorado principal) */
-  --color-orange-600: #A97631;  /* gold-dark (dorado oscuro) */
-  --color-orange-700: #6D4B21;  /* gold-deep (dorado profundo) */
-  --color-orange-900: #2A2013;  /* black-soft (negro suave) */
+  /* ── CREDITOS YADIEL Brand Colors (Azul Oscuro + Dorado + Gris) ── */
+  --color-brand-blue: #C9A961;      /* alias legacy → dorado principal */
+  --color-brand-dark: #0A0F14;      /* negro con tinte azul YADIEL */
+  --color-brand-green: #9A7B3E;     /* alias legacy → dorado oscuro */
+  --color-brand-orange: #C9A961;    /* dorado principal YADIEL */
+  --color-brand-red: #9A7B3E;       /* alias legacy → dorado oscuro */
 
-  /* ── Override Tailwind slate palette → NEGRO PURO MANDI (sin tinte azul) ── */
-  /* Elimina el fondo "azul medio" que se veía con slate-950 original */
-  --color-slate-950: #000000;   /* negro absoluto */
-  --color-slate-900: #060503;   /* negro MANDI principal */
-  --color-slate-800: #0F0C08;   /* negro con tinte dorado profundo */
-  --color-slate-700: #1A140B;   /* negro suave cálido */
+  /* ── Override Tailwind orange palette → YADIEL Gold palette ── */
+  /* Mantener nombres orange-* para no tocar componentes; valores mapeados a dorado YADIEL */
+  --color-orange-300: #D4BC7A;  /* gold-light (crema dorado) */
+  --color-orange-400: #C9A961;  /* gold-primary (dorado principal) */
+  --color-orange-500: #C9A961;  /* gold-primary (dorado principal) */
+  --color-orange-600: #9A7B3E;  /* gold-dark (dorado oscuro) */
+  --color-orange-700: #1B3A57;  /* deep-blue (azul oscuro — acento profundo) */
+  --color-orange-900: #111B27;  /* dark-blue-soft (azul oscuro suave) */
+
+  /* ── Override Tailwind slate palette → Negro con tinte azul YADIEL ── */
+  --color-slate-950: #000000;    /* negro absoluto */
+  --color-slate-900: #0A0F14;    /* negro YADIEL principal */
+  --color-slate-800: #0E1820;    /* negro con tinte azul profundo */
+  --color-slate-700: #152030;    /* azul muy oscuro suave */
 
   /* ── Override red palette → dorado oscuro (mantener nombres) ── */
-  --color-red-300: #E0CBAB;  /* gold-light */
-  --color-red-400: #DCAA61;  /* gold-primary */
-  --color-red-500: #DCAA61;  /* gold-primary */
-  --color-red-600: #A97631;  /* gold-dark */
-  --color-red-700: #6D4B21;  /* gold-deep */
-  --color-red-800: #4A3216;  /* gold-deep oscuro */
-  --color-red-900: #2A2013;  /* black-soft */
+  --color-red-300: #D4BC7A;   /* gold-light */
+  --color-red-400: #C9A961;   /* gold-primary */
+  --color-red-500: #C9A961;   /* gold-primary */
+  --color-red-600: #9A7B3E;   /* gold-dark */
+  --color-red-700: #1B3A57;   /* deep-blue */
+  --color-red-800: #142D44;   /* blue-deep oscuro */
+  --color-red-900: #111B27;   /* dark-blue-soft */
 }
 
 :root {
@@ -82,24 +82,24 @@
   --card-foreground: oklch(0.145 0.015 260);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0.015 260);
-  /* MANDI CORP — Dorado sobre Negro (OKLCH approximado desde hex) */
-  --primary: oklch(0.80 0.12 75);           /* #DCAA61 dorado principal */
-  --primary-foreground: oklch(0.02 0.005 60); /* #060503 negro */
-  --secondary: oklch(0.18 0.02 65);          /* #2A2013 black-soft */
-  --secondary-foreground: oklch(0.84 0.04 70); /* #E0CBAB gold-light */
-  --muted: oklch(0.18 0.02 65);              /* #2A2013 */
-  --muted-foreground: oklch(0.84 0.04 70);   /* #E0CBAB gold-light */
-  --accent: oklch(0.59 0.10 65);             /* #A97631 gold-dark */
+  /* CREDITOS YADIEL — Dorado sobre Negro (OKLCH approximado desde hex) */
+  --primary: oklch(0.78 0.11 75);             /* #C9A961 dorado principal */
+  --primary-foreground: oklch(0.03 0.01 240); /* #0A0F14 negro */
+  --secondary: oklch(0.20 0.03 240);          /* #111B27 dark-blue-soft */
+  --secondary-foreground: oklch(0.84 0.06 80);/* #D4BC7A gold-light */
+  --muted: oklch(0.20 0.03 240);              /* #111B27 */
+  --muted-foreground: oklch(0.84 0.06 80);    /* #D4BC7A gold-light */
+  --accent: oklch(0.58 0.10 65);              /* #9A7B3E gold-dark */
   --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.577 0.245 27.325);  /* rojo semántico (errores) — mantener */
-  --border: oklch(0.42 0.07 60);             /* #6D4B21 gold-deep */
-  --input: oklch(0.42 0.07 60);              /* #6D4B21 gold-deep */
-  --ring: oklch(0.80 0.12 75);               /* #DCAA61 dorado */
-  --chart-1: oklch(0.80 0.12 75);            /* dorado principal */
-  --chart-2: oklch(0.59 0.10 65);            /* dorado oscuro */
-  --chart-3: oklch(0.84 0.04 70);            /* dorado claro */
-  --chart-4: oklch(0.42 0.07 60);            /* dorado profundo */
-  --chart-5: oklch(0.94 0.01 70);            /* blanco cálido */
+  --destructive: oklch(0.577 0.245 27.325);   /* rojo semántico (errores) — mantener */
+  --border: oklch(0.40 0.08 240);             /* #1B3A57 deep-blue */
+  --input: oklch(0.40 0.08 240);              /* #1B3A57 deep-blue */
+  --ring: oklch(0.78 0.11 75);                /* #C9A961 dorado */
+  --chart-1: oklch(0.78 0.11 75);             /* dorado principal */
+  --chart-2: oklch(0.58 0.10 65);             /* dorado oscuro */
+  --chart-3: oklch(0.84 0.06 80);             /* dorado claro */
+  --chart-4: oklch(0.40 0.08 240);            /* azul oscuro */
+  --chart-5: oklch(0.94 0.01 240);            /* blanco azulado */
 }
 
 @layer base {
@@ -114,7 +114,7 @@
     @apply bg-slate-950 text-slate-800;  /* slate-950 sobreescrito a negro puro arriba */
     overflow-x: hidden;
     position: relative;
-    background-color: #000000 !important;  /* negro absoluto MANDI, garantiza cero tinte azul */
+    background-color: #000000 !important;  /* negro absoluto YADIEL, garantiza cero tinte */
     /* Padding inferior en mobile para que el BottomNav no tape contenido.
        72px = altura del BottomNav (48px área táctil + 24px padding/borde).
        Env(safe-area-inset-bottom) suma el espacio de iPhone con notch/home indicator.
@@ -137,15 +137,15 @@
 }
 
 .glass-dark {
-  background: rgba(6, 5, 3, 0.7);   /* #060503 negro MANDI con alpha */
+  background: rgba(10, 15, 20, 0.7);   /* #0A0F14 negro YADIEL con alpha */
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(220, 170, 97, 0.18);  /* dorado sutil */
+  border: 1px solid rgba(201, 169, 97, 0.18);  /* dorado sutil */
 }
 
-/* Hero gradient background — MANDI CORP (negro→dorado profundo→dorado oscuro→dorado principal) */
+/* Hero gradient background — CREDITOS YADIEL (negro→azul oscuro→dorado oscuro→dorado principal) */
 .hero-gradient {
-  background: linear-gradient(135deg, #000000 0%, #060503 25%, #2A2013 50%, #6D4B21 75%, #A97631 100%);
+  background: linear-gradient(135deg, #000000 0%, #0A0F14 25%, #111B27 50%, #1B3A57 75%, #9A7B3E 100%);
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -157,18 +157,18 @@
 .text-gold-metallic {
   background: linear-gradient(
     180deg,
-    #F5E6C8 0%,    /* highlight superior (casi blanco cálido) */
-    #E0CBAB 20%,
-    #DCAA61 45%,   /* dorado principal */
-    #A97631 70%,   /* dorado oscuro */
-    #6D4B21 90%,   /* sombra inferior */
-    #DCAA61 100%   /* reflejo inferior */
+    #E8D5A0 0%,    /* highlight superior (casi blanco cálido) */
+    #D4BC7A 20%,
+    #C9A961 45%,   /* dorado principal */
+    #9A7B3E 70%,   /* dorado oscuro */
+    #1B3A57 90%,   /* azul oscuro sombra */
+    #C9A961 100%   /* reflejo inferior */
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  text-shadow: 0 1px 0 rgba(255, 245, 220, 0.15);  /* sutil brillo superior */
+  text-shadow: 0 1px 0 rgba(232, 213, 160, 0.15);  /* sutil brillo superior */
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
 }
 
@@ -182,16 +182,16 @@
   /* Gradiente metálico vertical de 6 capas (simula reflejo en metal pulido) */
   background: linear-gradient(
     180deg,
-    #6D4B21 0%,       /* sombra superior profunda */
-    #A97631 12%,      /* oro oscuro */
-    #DCAA61 28%,      /* oro principal */
-    #E0CBAB 42%,      /* gold light */
-    #FFF8E8 48%,      /* white highlight (reflejo especular superior) */
-    #E0CBAB 54%,      /* gold light */
-    #DCAA61 68%,      /* oro principal */
-    #A97631 82%,      /* oro oscuro */
-    #6D4B21 96%,      /* sombra inferior */
-    #4A3216 100%      /* sombra profunda */
+    #1B3A57 0%,       /* sombra superior azul oscuro */
+    #9A7B3E 12%,      /* oro oscuro */
+    #C9A961 28%,      /* oro principal */
+    #D4BC7A 42%,      /* gold light */
+    #F5EDD0 48%,      /* white highlight (reflejo especular superior) */
+    #D4BC7A 54%,      /* gold light */
+    #C9A961 68%,      /* oro principal */
+    #9A7B3E 82%,      /* oro oscuro */
+    #1B3A57 96%,      /* sombra inferior azul oscuro */
+    #142D44 100%      /* sombra profunda azul */
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -200,14 +200,14 @@
 
   /* Bevel effect: sombra inferior oscura + brillo superior claro */
   text-shadow:
-    0 1px 0 rgba(255, 248, 232, 0.25),    /* highlight superior sutil */
-    0 -1px 0 rgba(74, 50, 22, 0.4);       /* sombra superior profunda */
+    0 1px 0 rgba(245, 237, 208, 0.25),    /* highlight superior sutil */
+    0 -1px 0 rgba(27, 58, 87, 0.4);       /* sombra superior profunda */
 
   /* Inner glow + outer glow sutil + drop shadow elegante */
   filter:
     drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6))
-    drop-shadow(0 0 8px rgba(220, 170, 97, 0.25))
-    drop-shadow(0 0 1px rgba(255, 248, 232, 0.4));
+    drop-shadow(0 0 8px rgba(201, 169, 97, 0.25))
+    drop-shadow(0 0 1px rgba(245, 237, 208, 0.4));
 
   /* Suavizado de transición para hover */
   transition: filter 200ms ease, text-shadow 200ms ease;
@@ -221,11 +221,11 @@
 .text-gold-luxury:hover {
   text-shadow:
     0 1px 0 rgba(255, 255, 245, 0.45),
-    0 -1px 0 rgba(74, 50, 22, 0.5);
+    0 -1px 0 rgba(27, 58, 87, 0.5);
   filter:
     drop-shadow(0 1px 3px rgba(0, 0, 0, 0.7))
-    drop-shadow(0 0 14px rgba(220, 170, 97, 0.5))
-    drop-shadow(0 0 2px rgba(255, 248, 232, 0.6))
+    drop-shadow(0 0 14px rgba(201, 169, 97, 0.5))
+    drop-shadow(0 0 2px rgba(245, 237, 208, 0.6))
     brightness(1.08)
     contrast(1.05);
 }
@@ -234,31 +234,31 @@
 .text-gold-luxury-subtle {
   background: linear-gradient(
     180deg,
-    #A97631 0%,
-    #DCAA61 35%,
-    #E0CBAB 50%,
-    #FFF8E8 52%,
-    #E0CBAB 56%,
-    #DCAA61 75%,
-    #A97631 100%
+    #9A7B3E 0%,
+    #C9A961 35%,
+    #D4BC7A 50%,
+    #F5EDD0 52%,
+    #D4BC7A 56%,
+    #C9A961 75%,
+    #9A7B3E 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   text-shadow:
-    0 1px 0 rgba(255, 248, 232, 0.2),
-    0 -1px 0 rgba(74, 50, 22, 0.3);
+    0 1px 0 rgba(245, 237, 208, 0.2),
+    0 -1px 0 rgba(27, 58, 87, 0.3);
   filter:
     drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5))
-    drop-shadow(0 0 4px rgba(220, 170, 97, 0.2));
+    drop-shadow(0 0 4px rgba(201, 169, 97, 0.2));
   transition: filter 200ms ease, text-shadow 200ms ease;
 }
 
 .text-gold-luxury-subtle:hover {
   filter:
     drop-shadow(0 1px 3px rgba(0, 0, 0, 0.6))
-    drop-shadow(0 0 8px rgba(220, 170, 97, 0.4))
+    drop-shadow(0 0 8px rgba(201, 169, 97, 0.4))
     brightness(1.08);
 }
 
@@ -272,22 +272,22 @@
   /* Gradiente metálico vertical de 8 capas — efecto premium con reflejo especular */
   background: linear-gradient(
     180deg,
-    #FFF8E8 0%,    /* white highlight (reflejo especular superior) */
-    #F5E6C8 8%,
-    #E0CBAB 18%,
-    #DCAA61 32%,   /* dorado principal */
-    #C99545 48%,
-    #A97631 65%,   /* dorado oscuro */
-    #8B5E26 82%,
-    #6D4B21 100%   /* sombra inferior profunda */
+    #F5EDD0 0%,    /* white highlight (reflejo especular superior) */
+    #E8D5A0 8%,
+    #D4BC7A 18%,
+    #C9A961 32%,   /* dorado principal */
+    #B8954F 48%,
+    #9A7B3E 65%,   /* dorado oscuro */
+    #1B3A57 82%,   /* azul oscuro */
+    #142D44 100%   /* sombra inferior profunda */
   );
   box-shadow:
-    inset 0 1px 0 rgba(255, 250, 230, 0.7),    /* brillo superior interno reforzado */
+    inset 0 1px 0 rgba(245, 237, 208, 0.7),    /* brillo superior interno reforzado */
     inset 0 -1px 0 rgba(0, 0, 0, 0.3),          /* sombra inferior interna */
-    inset 0 0 8px rgba(255, 248, 232, 0.15),    /* inner glow sutil */
-    0 4px 14px rgba(220, 170, 97, 0.4),         /* glow exterior dorado */
+    inset 0 0 8px rgba(245, 237, 208, 0.15),    /* inner glow sutil */
+    0 4px 14px rgba(201, 169, 97, 0.4),         /* glow exterior dorado */
     0 2px 4px rgba(0, 0, 0, 0.5),               /* sombra base */
-    0 0 0 1px rgba(109, 75, 33, 0.4);           /* borde dorado profundo */
+    0 0 0 1px rgba(27, 58, 87, 0.4);            /* borde azul oscuro */
   transition: all 200ms ease;
 }
 
@@ -296,21 +296,21 @@
   background: linear-gradient(
     180deg,
     #FFFFFF 0%,    /* white highlight máximo */
-    #FFF8E8 10%,
-    #F5E6C8 22%,
-    #E0CBAB 35%,
-    #DCAA61 50%,   /* dorado principal */
-    #B8862E 68%,
-    #8B5E26 85%,
-    #6D4B21 100%
+    #F5EDD0 10%,
+    #E8D5A0 22%,
+    #D4BC7A 35%,
+    #C9A961 50%,   /* dorado principal */
+    #A88B48 68%,
+    #1B3A57 85%,
+    #142D44 100%
   );
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.85),   /* brillo superior máximo */
     inset 0 -1px 0 rgba(0, 0, 0, 0.25),
-    inset 0 0 12px rgba(255, 248, 232, 0.25),  /* inner glow reforzado */
-    0 6px 22px rgba(220, 170, 97, 0.55),       /* glow exterior expandido */
+    inset 0 0 12px rgba(245, 237, 208, 0.25),  /* inner glow reforzado */
+    0 6px 22px rgba(201, 169, 97, 0.55),       /* glow exterior expandido */
     0 3px 6px rgba(0, 0, 0, 0.5),
-    0 0 0 1px rgba(109, 75, 33, 0.5);
+    0 0 0 1px rgba(27, 58, 87, 0.5);
   filter: brightness(1.05) contrast(1.03);
 }
 
@@ -319,26 +319,26 @@
   border: 1px solid transparent;
   background:
     linear-gradient(#000, #000) padding-box,
-    linear-gradient(180deg, #E0CBAB 0%, #DCAA61 30%, #A97631 70%, #6D4B21 100%) border-box;
+    linear-gradient(180deg, #D4BC7A 0%, #C9A961 30%, #9A7B3E 70%, #1B3A57 100%) border-box;
 }
 
 /* Glow orb dorado más intenso (para acentos difusos en secciones) */
 .glow-gold {
-  background: radial-gradient(circle, rgba(220, 170, 97, 0.45) 0%, rgba(220, 170, 97, 0.15) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(201, 169, 97, 0.45) 0%, rgba(201, 169, 97, 0.15) 40%, transparent 70%);
   filter: blur(40px);
 }
 
-/* Animated gradient for accents — MANDI CORP dorado metálico shimmer */
+/* Animated gradient for accents — CREDITOS YADIEL dorado metálico shimmer */
 .gradient-shimmer {
   background: linear-gradient(
     110deg,
-    #E0CBAB 0%,
-    #DCAA61 20%,
-    #F5E6C8 35%,
-    #DCAA61 50%,
-    #A97631 70%,
-    #6D4B21 85%,
-    #DCAA61 100%
+    #D4BC7A 0%,
+    #C9A961 20%,
+    #E8D5A0 35%,
+    #C9A961 50%,
+    #9A7B3E 70%,
+    #1B3A57 85%,
+    #C9A961 100%
   );
   background-size: 200% 100%;
   animation: shimmer 6s ease-in-out infinite;
@@ -376,7 +376,7 @@ input[type="range"] {
   appearance: none;
   height: 6px;
   border-radius: 3px;
-  background: linear-gradient(90deg, #1A140B 0%, #2A2013 100%);
+  background: linear-gradient(90deg, #0E1820 0%, #111B27 100%);
   outline: none;
 }
 
@@ -386,28 +386,28 @@ input[type="range"]::-webkit-slider-thumb {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #F5E6C8 0%, #DCAA61 50%, #A97631 100%);  /* dorado metálico */
+  background: linear-gradient(180deg, #E8D5A0 0%, #C9A961 50%, #9A7B3E 100%);  /* dorado metálico */
   cursor: pointer;
-  border: 1px solid rgba(245, 230, 200, 0.4);
+  border: 1px solid rgba(232, 213, 160, 0.4);
   box-shadow:
-    inset 0 1px 0 rgba(255, 250, 230, 0.6),
-    0 0 0 4px rgba(220, 170, 97, 0.22),
-    0 2px 10px rgba(220, 170, 97, 0.55);
+    inset 0 1px 0 rgba(245, 237, 208, 0.6),
+    0 0 0 4px rgba(201, 169, 97, 0.22),
+    0 2px 10px rgba(201, 169, 97, 0.55);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 input[type="range"]::-webkit-slider-thumb:hover {
   transform: scale(1.15);
   box-shadow:
-    inset 0 1px 0 rgba(255, 250, 230, 0.7),
-    0 0 0 6px rgba(220, 170, 97, 0.30),
-    0 3px 14px rgba(220, 170, 97, 0.65);
+    inset 0 1px 0 rgba(245, 237, 208, 0.7),
+    0 0 0 6px rgba(201, 169, 97, 0.30),
+    0 3px 14px rgba(201, 169, 97, 0.65);
 }
 
 input[type="range"]::-moz-range-track {
   height: 6px;
   border-radius: 3px;
-  background: linear-gradient(90deg, #1A140B 0%, #2A2013 100%);
+  background: linear-gradient(90deg, #0E1820 0%, #111B27 100%);
   border: none;
 }
 
@@ -415,34 +415,34 @@ input[type="range"]::-moz-range-thumb {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #F5E6C8 0%, #DCAA61 50%, #A97631 100%);
+  background: linear-gradient(180deg, #E8D5A0 0%, #C9A961 50%, #9A7B3E 100%);
   cursor: pointer;
-  border: 1px solid rgba(245, 230, 200, 0.4);
+  border: 1px solid rgba(232, 213, 160, 0.4);
   box-shadow:
-    inset 0 1px 0 rgba(255, 250, 230, 0.6),
-    0 0 0 4px rgba(220, 170, 97, 0.22),
-    0 2px 10px rgba(220, 170, 97, 0.55);
+    inset 0 1px 0 rgba(245, 237, 208, 0.6),
+    0 0 0 4px rgba(201, 169, 97, 0.22),
+    0 2px 10px rgba(201, 169, 97, 0.55);
 }
 
 /* ── Scrollbar dorado premium ── */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: #0a0a0a; }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #A97631 0%, #DCAA61 50%, #A97631 100%);
+  background: linear-gradient(180deg, #9A7B3E 0%, #C9A961 50%, #9A7B3E 100%);
   border-radius: 4px;
-  border: 1px solid rgba(220, 170, 97, 0.3);
+  border: 1px solid rgba(201, 169, 97, 0.3);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #DCAA61 0%, #F5E6C8 50%, #DCAA61 100%);
+  background: linear-gradient(180deg, #C9A961 0%, #E8D5A0 50%, #C9A961 100%);
 }
-* { scrollbar-width: thin; scrollbar-color: #DCAA61 #0a0a0a; }
+* { scrollbar-width: thin; scrollbar-color: #C9A961 #0a0a0a; }
 
 /* ── Selección de texto dorado premium ── */
 ::selection {
-  background: rgba(220, 170, 97, 0.35);
-  color: #F5E6C8;
+  background: rgba(201, 169, 97, 0.35);
+  color: #E8D5A0;
 }
 ::-moz-selection {
-  background: rgba(220, 170, 97, 0.35);
-  color: #F5E6C8;
+  background: rgba(201, 169, 97, 0.35);
+  color: #E8D5A0;
 }

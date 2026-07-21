@@ -172,13 +172,13 @@ function HeroSection() {
           >
             <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-xl max-w-[280px] hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center gap-3">
-                <div className="bg-[#DCAA61]/20 p-2.5 rounded-xl text-[#DCAA61]">
+                <div className="bg-[#C9A961]/20 p-2.5 rounded-xl text-[#C9A961]">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
                 <div>
-                  <div className="text-3xl font-black text-[#DCAA61] tracking-tight">+5,000</div>
+                  <div className="text-3xl font-black text-[#C9A961] tracking-tight">+5,000</div>
                   <div className="text-sm font-medium text-slate-200 mt-1">Clientes Felices</div>
                 </div>
               </div>
@@ -238,11 +238,11 @@ function HeroSection() {
               nextSection.scrollIntoView({ behavior: "smooth" });
             }
           }}
-          className="flex flex-col items-center text-slate-300 hover:text-[#DCAA61] transition-colors focus:outline-none group text-xs font-semibold tracking-wider uppercase cursor-pointer"
+          className="flex flex-col items-center text-slate-300 hover:text-[#C9A961] transition-colors focus:outline-none group text-xs font-semibold tracking-wider uppercase cursor-pointer"
         >
           <span>Ver más</span>
           <svg
-            className="w-5 h-5 mt-1 animate-bounce text-[#DCAA61] group-hover:scale-110 transition-transform"
+            className="w-5 h-5 mt-1 animate-bounce text-[#C9A961] group-hover:scale-110 transition-transform"
             fill="none"
             stroke="currentColor"
             strokeWidth="2.5"
@@ -267,7 +267,7 @@ function ProductsSection() {
       whatsapp: "prestamos-personales" as const,
       gradient: "from-orange-600 to-red-700",
       image: "/images/personal-loan.jpg",
-      imageAlt: "Préstamo personal al instante - MANDI CORP",
+      imageAlt: "Préstamo personal al instante - CRÉDITOS YADIEL",
       description:
         "Préstamos personales rápidos sin complicaciones. Montos desde S/ 500 hasta S/ 20,000 con aprobación en menos de 24 horas.",
     },
@@ -279,7 +279,7 @@ function ProductsSection() {
       whatsapp: "garantia-vehicular" as const,
       gradient: "from-orange-700 to-red-800",
       image: "/images/car-drive.jpg",
-      imageAlt: "Préstamo con garantía vehicular - MANDI CORP",
+      imageAlt: "Préstamo con garantía vehicular - CRÉDITOS YADIEL",
       description:
         "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia para mayor seguridad.",
     },
@@ -437,7 +437,7 @@ function FeaturesSection() {
                   className="group bg-white/[0.04] hover:bg-white/[0.06] rounded-2xl p-6 border border-white/5 hover:border-white/10 hover:shadow-xl hover:shadow-black/20 transition-all duration-300"
                 >
                   <div className="w-12 h-12 rounded-xl bg-white/[0.06] group-hover:bg-white/[0.08] flex items-center justify-center mb-4 transition-colors duration-300">
-                    <feature.icon className="w-6 h-6 text-[#DCAA61]" />
+                    <feature.icon className="w-6 h-6 text-[#C9A961]" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     {feature.title}
@@ -460,7 +460,7 @@ function FeaturesSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
               <Image
                 src="/images/customer-service.jpg"
-                alt="Equipo de atención al cliente de MANDI CORP"
+                alt="Equipo de atención al cliente de CRÉDITOS YADIEL"
                 width={400}
                 height={520}
                 className="w-full h-auto object-cover rounded-3xl"
@@ -575,7 +575,7 @@ function FAQSection() {
                 className="w-full flex items-center justify-between py-6 text-left group"
                 aria-expanded={openIndex === i}
               >
-                <span className="text-base sm:text-lg font-semibold text-white group-hover:text-[#DCAA61] transition-colors pr-4">
+                <span className="text-base sm:text-lg font-semibold text-white group-hover:text-[#C9A961] transition-colors pr-4">
                   {faq.question}
                 </span>
                 <motion.div
@@ -583,7 +583,7 @@ function FAQSection() {
                   transition={{ duration: 0.3 }}
                   className="shrink-0 w-8 h-8 rounded-full bg-white/[0.06] group-hover:bg-white/[0.08] flex items-center justify-center transition-colors"
                 >
-                  <ChevronDown className="w-4 h-4 text-slate-400 group-hover:text-[#DCAA61] transition-colors" />
+                  <ChevronDown className="w-4 h-4 text-slate-400 group-hover:text-[#C9A961] transition-colors" />
                 </motion.div>
               </button>
               <motion.div
@@ -612,8 +612,8 @@ function CTASection() {
     <section id="contacto" className="relative bg-gradient-to-t from-slate-900/50 to-transparent py-16 sm:py-20 overflow-hidden">
       <div className="bg-white/[0.02] backdrop-blur-md border border-white/5 rounded-3xl mx-4 sm:mx-6 lg:mx-8 relative overflow-hidden p-10 sm:p-16 text-center shadow-2xl">
         {/* Glow orbs */}
-        <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#DCAA61]/10 rounded-full blur-[80px] pointer-events-none" />
-        <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#A97631]/10 rounded-full blur-[80px] pointer-events-none" />
+        <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#C9A961]/10 rounded-full blur-[80px] pointer-events-none" />
+        <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#9A7B3E]/10 rounded-full blur-[80px] pointer-events-none" />
 
         <motion.div
           variants={fadeUp}
@@ -666,7 +666,7 @@ function VacaFullBleed() {
       />
       <Image
         src="/images/vaca-oficial.webp"
-        alt="MANDI CORP"
+        alt="CRÉDITOS YADIEL"
         width={1536}
         height={1024}
         className="w-full h-auto object-cover"
