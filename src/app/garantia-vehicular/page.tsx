@@ -19,7 +19,7 @@ import DeepLinking from "@/components/DeepLinking";
 export const metadata: Metadata = {
   title: "Préstamo con Garantía Vehicular",
   description:
-    "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia. Montos hasta S/ 100,000 con tasas competitivas. CORPORACIÓN MANDI SAC.",
+    "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia. Montos hasta S/ 100,000 con tasas competitivas. CRÉDITOS YADIEL.",
   alternates: { canonical: "/garantia-vehicular" },
 };
 

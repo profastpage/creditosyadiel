@@ -20,7 +20,7 @@ import DeepLinking from "@/components/DeepLinking";
 export const metadata: Metadata = {
   title: "Nosotros — Información Institucional",
   description:
-    "Conoce CORPORACIÓN MANDI SAC (RUC: 20615991938). Tu aliado financiero de confianza con años de experiencia en soluciones crediticias en Perú.",
+    "Conoce CRÉDITOS YADIEL (RUC: 20615991938). Tu aliado financiero de confianza con años de experiencia en soluciones crediticias en Perú.",
   alternates: { canonical: "/nosotros" },
 };
 
@@ -162,9 +162,8 @@ export default function NosotrosPage() {
                 </h2>
                 <div className="space-y-4 text-slate-300 leading-relaxed">
                   <p>
-                    <strong className="text-white">CRÉDITOS YADIEL</strong> es una marca comercial de{" "}
-                    <strong className="text-white">{SITE_CONFIG.businessName}</strong> (RUC: {SITE_CONFIG.ruc}),
-                    una empresa peruana dedicada a brindar soluciones financieras
+                    <strong className="text-white">CRÉDITOS YADIEL</strong> (RUC: {SITE_CONFIG.ruc})
+                    es una empresa peruana dedicada a brindar soluciones financieras
                     accesibles y confiables a miles de familias en todo el territorio
                     nacional.
                   </p>
@@ -232,7 +231,7 @@ export default function NosotrosPage() {
               </h2>
               <div className="mt-4 max-w-2xl mx-auto">
                 <p className="text-slate-400 leading-relaxed whitespace-nowrap w-max max-w-none mx-auto">
-                  Los pilares estratégicos que guían cada decisión y acción de CORPORACIÓN MANDI SAC
+                  Los pilares estratégicos que guían cada decisión y acción de CRÉDITOS YADIEL
                 </p>
                 <p className="text-slate-400 leading-relaxed">
                   en su compromiso con la inclusión financiera en el Perú.
@@ -255,7 +254,7 @@ export default function NosotrosPage() {
                   </h3>
                   <div className="w-16 h-[2px] bg-gradient-to-r from-[#C9A961] to-transparent mb-6" />
                   <p className="text-slate-300 leading-relaxed text-[15px]">
-                    En <strong className="text-white">CORPORACIÓN MANDI SAC</strong>, nuestra misión es democratizar el acceso a soluciones crediticias en el Perú, ofreciendo productos financieros ágiles, transparentes y adaptados a las necesidades reales de cada cliente. Nos comprometemos a brindar una experiencia de servicio excepcional, eliminando barreras burocráticas y utilizando tecnología de punta para que cada persona pueda acceder al crédito que merece, en el momento que lo necesita, con condiciones claras y justas.
+                    En <strong className="text-white">CRÉDITOS YADIEL</strong>, nuestra misión es democratizar el acceso a soluciones crediticias en el Perú, ofreciendo productos financieros ágiles, transparentes y adaptados a las necesidades reales de cada cliente. Nos comprometemos a brindar una experiencia de servicio excepcional, eliminando barreras burocráticas y utilizando tecnología de punta para que cada persona pueda acceder al crédito que merece, en el momento que lo necesita, con condiciones claras y justas.
                   </p>
                   <div className="flex flex-wrap gap-3 mt-6">
                     <span className="text-xs font-medium bg-[#C9A961]/10 text-[#C9A961] border border-[#C9A961]/20 px-3 py-1.5 rounded-full">Inclusión Financiera</span>

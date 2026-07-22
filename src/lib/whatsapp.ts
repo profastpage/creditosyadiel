@@ -1,7 +1,7 @@
 /**
  * WhatsApp Conversion Utility
  * Centralized redirect logic for all WhatsApp CTAs across the site.
- * Phone: +51 966 897 008 (CORPORACIÓN MANDI SAC)
+ * Phone: +51 966 897 008 (CRÉDITOS YADIEL)
  */
 
 export const WHATSAPP_PHONE = "51966897008";

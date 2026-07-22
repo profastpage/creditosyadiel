@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | CRÉDITOS YADIEL",
   },
   description:
-    "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. CORPORACIÓN MANDI SAC (RUC: 20615991938).",
+    "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. CRÉDITOS YADIEL (RUC: 20615991938).",
   keywords: [
     "préstamos personales",
     "préstamo vehicular",
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     "Procustodia",
     "financiera Perú",
     "CRÉDITOS YADIEL",
-    "CORPORACIÓN MANDI SAC",
+    "CRÉDITOS YADIEL",
     "crédito al instante",
     "dinero rápido",
     "RUC 20615991938",
   ],
-  authors: [{ name: "CORPORACIÓN MANDI SAC" }],
+  authors: [{ name: "CRÉDITOS YADIEL" }],
   metadataBase: new URL("https://creditosyadiel.vercel.app"),
   alternates: {
     canonical: "/",

@@ -19,7 +19,7 @@ import DeepLinking from "@/components/DeepLinking";
 export const metadata: Metadata = {
   title: "Préstamos Personales al Instante",
   description:
-    "Obtén tu préstamo personal rápido y sin complicaciones. Montos desde S/ 500 hasta S/ 20,000 con aprobación en menos de 24 horas. CORPORACIÓN MANDI SAC.",
+    "Obtén tu préstamo personal rápido y sin complicaciones. Montos desde S/ 500 hasta S/ 20,000 con aprobación en menos de 24 horas. CRÉDITOS YADIEL.",
   alternates: { canonical: "/prestamos-personales" },
 };
 

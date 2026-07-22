@@ -1,12 +1,12 @@
 /**
  * Site-wide constants for CRÉDITOS YADIEL
- * Razón Social: CORPORACIÓN MANDI SAC
+ * Razón Social: CRÉDITOS YADIEL
  * RUC: 20615991938
  */
 
 export const SITE_CONFIG = {
   name: "CRÉDITOS YADIEL",
-  businessName: "CORPORACIÓN MANDI SAC",
+  businessName: "CRÉDITOS YADIEL",
   ruc: "20615991938",
   phone: "+51966897008",
   phoneDisplay: "+51 966 897 008",
@@ -23,7 +23,7 @@ export const SITE_CONFIG = {
     "Procustodia",
     "financiera Perú",
     "CRÉDITOS YADIEL",
-    "CORPORACIÓN MANDI SAC",
+    "CRÉDITOS YADIEL",
     "crédito al instante",
     "dinero rápido",
   ],

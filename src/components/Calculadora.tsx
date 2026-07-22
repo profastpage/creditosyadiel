@@ -301,7 +301,7 @@ export default function Calculadora() {
               <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#9A7B3E]/10 rounded-full blur-[80px] pointer-events-none" />
               <div className="glass rounded-xl p-4 relative">
                 <p className="text-sm font-semibold text-orange-200 mb-2">
-                  CORPORACIÓN MANDI SAC
+                  CRÉDITOS YADIEL
                 </p>
                 <p className="text-xs text-white/70">
                   RUC: 20615991938. Empresa registrada y autorizada para
