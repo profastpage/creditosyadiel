@@ -652,33 +652,46 @@ function CTASection() {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   VACA FULL BLEED — Ultra Pro Image Section
+   BRAND BANNER — Full-width branding section (reemplaza VacaFullBleed)
+   Premium gradient banner with brand identity, no vaca mascot.
    ═══════════════════════════════════════════════════════════════════════════ */
-function VacaFullBleed() {
+function BrandFullBleed() {
   return (
-    <section className="relative w-full">
-      {/* Fade superior — se fusiona con la sección anterior (oscura) */}
+    <section className="relative w-full overflow-hidden">
+      {/* Gradient background — Azul oscuro → Dorado → Negro */}
       <div
-        className="absolute top-0 left-0 right-0 h-[20px] md:h-[35px] z-10 pointer-events-none"
+        className="absolute inset-0"
         style={{
-          background: "linear-gradient(to bottom, rgba(2, 6, 23, 0.18) 0%, transparent 100%)",
+          background: "linear-gradient(135deg, #000000 0%, #0A0F14 20%, #1B3A57 40%, #9A7B3E 60%, #C9A961 75%, #0A0F14 100%)",
         }}
       />
-      <Image
-        src="/images/vaca-oficial.webp"
-        alt="CRÉDITOS YADIEL"
-        width={1536}
-        height={1024}
-        className="w-full h-auto object-cover"
-        quality={92}
-      />
-      {/* Fade inferior — se fusiona con la sección siguiente */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-[20px] md:h-[35px] z-10 pointer-events-none"
-        style={{
-          background: "linear-gradient(to top, rgba(2, 6, 23, 0.14) 0%, transparent 100%)",
-        }}
-      />
+      {/* Shimmer overlay */}
+      <div className="absolute inset-0 opacity-30 gradient-shimmer" />
+      {/* Content */}
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="flex flex-col items-center gap-4"
+        >
+          <span className="text-sm font-semibold tracking-[0.2em] uppercase text-[#C9A961]/80">
+            Tu aliado financiero
+          </span>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gold-luxury tracking-tight">
+            CRÉDITOS YADIEL
+          </h2>
+          <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-[#C9A961] to-transparent" />
+          <p className="text-base sm:text-lg text-white/70 max-w-xl">
+            Préstamos personales al instante y con garantía vehicular.
+            Soluciones crediticias transparentes, rápidas y adaptadas a tus necesidades.
+          </p>
+        </motion.div>
+      </div>
+      {/* Glow orbs */}
+      <div className="absolute -top-40 -left-40 w-[300px] h-[300px] bg-[#C9A961]/15 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute -bottom-40 -right-40 w-[300px] h-[300px] bg-[#1B3A57]/20 rounded-full blur-[100px] pointer-events-none" />
     </section>
   );
 }
@@ -692,7 +705,7 @@ export default function HomePage() {
         <DeepLinking>
         <HeroSection />
         <FeaturesSection />
-        <VacaFullBleed />
+        <BrandFullBleed />
         <ProductsSection />
         <ProcessSection />
         <Calculadora />
