@@ -129,7 +129,7 @@ export default function NosotrosPage() {
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="relative rounded-3xl overflow-hidden shadow-xl h-64 md:h-80">
                 <Image
-                  src="/images/team-meeting.jpg"
+                  src="/images/team-meeting.webp"
                   alt="Equipo de trabajo de CRÉDITOS YADIEL en reunión"
                   fill
                   className="object-cover"
@@ -143,7 +143,7 @@ export default function NosotrosPage() {
               </div>
               <div className="relative rounded-3xl overflow-hidden shadow-xl h-64 md:h-80">
                 <Image
-                  src="/images/office-building.jpg"
+                  src="/images/office-building.webp"
                   alt="Oficinas de CRÉDITOS YADIEL en Lima, Perú"
                   fill
                   className="object-cover"
@@ -317,7 +317,7 @@ export default function NosotrosPage() {
               <div className="hidden lg:block">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30 sticky top-24">
                   <Image
-                    src="/images/office-team.jpg"
+                    src="/images/office-team.webp"
                     alt="Equipo de trabajo colaborando en oficinas de CRÉDITOS YADIEL"
                     width={360}
                     height={480}

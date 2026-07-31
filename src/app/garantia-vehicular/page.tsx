@@ -134,7 +134,7 @@ export default function GarantiaVehicularPage() {
               <div className="hidden lg:block">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/20">
                   <Image
-                    src="/images/modern-car.jpg"
+                    src="/images/modern-car.webp"
                     alt="Vehículo moderno utilizado como garantía - CRÉDITOS YADIEL"
                     width={480}
                     height={360}
@@ -228,7 +228,7 @@ export default function GarantiaVehicularPage() {
               <div className="bg-white/[0.03] backdrop-blur-md border border-white/10 p-6 rounded-2xl shadow-2xl">
                 <div className="relative w-full h-48 rounded-2xl overflow-hidden mb-6">
                   <Image
-                    src="/images/trust-partners.jpg"
+                    src="/images/trust-partners.webp"
                     alt="Alianza estratégica con Procustodia - custodia vehicular"
                     fill
                     className="object-cover"

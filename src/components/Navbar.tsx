@@ -104,7 +104,7 @@ export default function Navbar() {
   const hoverBg = isScrolled ? "rgba(255, 255, 255, 0.06)" : "rgba(255, 255, 255, 0.08)";
 
   /* ── Logo: always the same logo ── */
-  const logoSrc = "/logo-yadiel.png";
+  const logoSrc = "/logo-yadiel.webp";
 
   return (
     <>
@@ -296,7 +296,7 @@ export default function Navbar() {
                   className="relative shrink-0 w-[150px] h-10"
                 >
                   <Image
-                    src="/logo-yadiel.png"
+                    src="/logo-yadiel.webp"
                     alt="CRÉDITOS YADIEL"
                     fill
                     className="object-contain object-left"

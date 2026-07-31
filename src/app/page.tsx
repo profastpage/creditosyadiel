@@ -44,7 +44,7 @@ function HeroSection() {
       <div className="absolute inset-0 z-0">
         {/* Imagen de fondo — opacidad 65 para impacto visual */}
         <Image
-          src="/images/hero-emprendedora.png"
+          src="/images/hero-emprendedora.webp"
           alt="Emprendedora Progreso Financiero"
           fill
           priority
@@ -266,7 +266,7 @@ function ProductsSection() {
       href: "/prestamos-personales",
       whatsapp: "prestamos-personales" as const,
       gradient: "from-orange-600 to-red-700",
-      image: "/images/personal-loan.jpg",
+      image: "/images/personal-loan.webp",
       imageAlt: "Préstamo personal al instante - CRÉDITOS YADIEL",
       description:
         "Préstamos personales rápidos sin complicaciones. Montos desde S/ 500 hasta S/ 20,000 con aprobación en menos de 24 horas.",
@@ -278,7 +278,7 @@ function ProductsSection() {
       href: "/garantia-vehicular",
       whatsapp: "garantia-vehicular" as const,
       gradient: "from-orange-700 to-red-800",
-      image: "/images/car-drive.jpg",
+      image: "/images/car-drive.webp",
       imageAlt: "Préstamo con garantía vehicular - CRÉDITOS YADIEL",
       description:
         "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia para mayor seguridad.",
@@ -459,7 +459,7 @@ function FeaturesSection() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
               <Image
-                src="/images/customer-service.jpg"
+                src="/images/customer-service.webp"
                 alt="Equipo de atención al cliente de CRÉDITOS YADIEL"
                 width={400}
                 height={520}

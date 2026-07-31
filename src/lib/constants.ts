@@ -27,7 +27,7 @@ export const SITE_CONFIG = {
     "crédito al instante",
     "dinero rápido",
   ],
-  ogImage: "/og-image.jpg",
+  ogImage: "/og-image.webp",
 } as const;
 
 export const NAV_LINKS = [
