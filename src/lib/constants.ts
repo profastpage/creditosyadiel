@@ -1,15 +1,15 @@
 /**
  * Site-wide constants for CRÉDITOS YADIEL
  * Razón Social: CRÉDITOS YADIEL
- * RUC: 20615991938
+ * RUC: 20611453281
  */
 
 export const SITE_CONFIG = {
   name: "CRÉDITOS YADIEL",
   businessName: "CRÉDITOS YADIEL",
-  ruc: "20615991938",
-  phone: "+51966897008",
-  phoneDisplay: "+51 966 897 008",
+  ruc: "20611453281",
+  phone: "+51947233243",
+  phoneDisplay: "+51 947 233 243",
   email: "contacto@creditosyadiel.com",
   domain: "creditosyadiel.vercel.app",
   url: "https://creditosyadiel.vercel.app",

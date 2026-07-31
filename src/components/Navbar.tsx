@@ -88,7 +88,7 @@ export default function Navbar() {
 
   // Dynamic WhatsApp URL based on current pathname
   const dynamicWhatsAppUrl = getDynamicWhatsAppUrl(pathname);
-  const phoneHref = "tel:+51966897008";
+  const phoneHref = "tel:+51947233243";
 
   /* ═══════════════════════════════════════════════════════════════
       DYNAMIC COLORS — two states:
@@ -414,7 +414,7 @@ export default function Navbar() {
                 >
                   CRÉDITOS YADIEL
                   <br />
-                  RUC: 20615991938
+                  RUC: 20611453281
                 </p>
               </motion.div>
             </motion.div>

@@ -1,10 +1,10 @@
 /**
  * WhatsApp Conversion Utility
  * Centralized redirect logic for all WhatsApp CTAs across the site.
- * Phone: +51 966 897 008 (CRÉDITOS YADIEL)
+ * Phone: +51 947 233 243 (CRÉDITOS YADIEL)
  */
 
-export const WHATSAPP_PHONE = "51966897008";
+export const WHATSAPP_PHONE = "51947233243";
 
 type WhatsAppContext =
   | "home"

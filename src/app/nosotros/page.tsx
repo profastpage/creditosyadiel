@@ -20,7 +20,7 @@ import DeepLinking from "@/components/DeepLinking";
 export const metadata: Metadata = {
   title: "Nosotros — Información Institucional",
   description:
-    "Conoce CRÉDITOS YADIEL (RUC: 20615991938). Tu aliado financiero de confianza con años de experiencia en soluciones crediticias en Perú.",
+    "Conoce CRÉDITOS YADIEL (RUC: 20611453281). Tu aliado financiero de confianza con años de experiencia en soluciones crediticias en Perú.",
   alternates: { canonical: "/nosotros" },
 };
 

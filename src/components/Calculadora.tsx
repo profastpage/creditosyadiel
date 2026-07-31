@@ -304,7 +304,7 @@ export default function Calculadora() {
                   CRÉDITOS YADIEL
                 </p>
                 <p className="text-xs text-white/70">
-                  RUC: 20615991938. Empresa registrada y autorizada para
+                  RUC: 20611453281. Empresa registrada y autorizada para
                   operaciones financieras en el territorio nacional.
                   Respaldados por años de experiencia y compromiso con
                   nuestros clientes.

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | CRÉDITOS YADIEL",
   },
   description:
-    "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. CRÉDITOS YADIEL (RUC: 20615991938).",
+    "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. CRÉDITOS YADIEL (RUC: 20611453281).",
   keywords: [
     "préstamos personales",
     "préstamo vehicular",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "CRÉDITOS YADIEL",
     "crédito al instante",
     "dinero rápido",
-    "RUC 20615991938",
+    "RUC 20611453281",
   ],
   authors: [{ name: "CRÉDITOS YADIEL" }],
   metadataBase: new URL("https://creditosyadiel.vercel.app"),
