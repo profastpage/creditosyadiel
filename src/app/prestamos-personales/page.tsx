@@ -131,7 +131,15 @@ export default function PrestamosPersonalesPage() {
               </div>
               </div>
               <div className="hidden lg:block">
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/20 min-h-[280px]">
+                <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/20">
+                  <Image
+                    src="/images/side-prestamos.webp"
+                    alt="Préstamo personal al instante - CRÉDITOS YADIEL"
+                    width={480}
+                    height={360}
+                    className="w-full h-auto object-cover rounded-3xl"
+                    priority
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-3xl" />
                 </div>
               </div>

@@ -194,7 +194,15 @@ export default function LibroDeReclamacionesPage() {
                 transition={{ duration: 0.7, delay: 0.2 }}
                 className="hidden lg:block"
               >
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30 min-h-[280px]">
+                <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
+                  <Image
+                    src="/images/side-reclamaciones.webp"
+                    alt="Libro de Reclamaciones - CRÉDITOS YADIEL"
+                    width={560}
+                    height={380}
+                    className="w-full h-auto object-cover rounded-3xl"
+                    priority
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl" />
                 </div>
               </motion.div>
