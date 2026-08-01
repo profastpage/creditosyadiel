@@ -10,5 +10,16 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
 User-agent: *
 Allow: /
+
+Sitemap: https://creditosyadiel.vercel.app/sitemap.xml

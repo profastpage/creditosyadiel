@@ -20,25 +20,28 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "CRÉDITOS YADIEL — Préstamos Personales y Garantía Vehicular en Perú",
+    default: "CRÉDITOS YADIEL — Préstamos Personales al Instante y Garantía Vehicular en Perú",
     template: "%s | CRÉDITOS YADIEL",
   },
   description:
-    "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. CRÉDITOS YADIEL (RUC: 20611453281).",
+    "CRÉDITOS YADIEL — Préstamos personales al instante desde S/1,000 hasta S/50,000 y préstamos con garantía vehicular sin dejar de usar tu auto. Desembolso en 24 horas. RUC: 20611453281. Tu aliado financiero de confianza en Perú.",
   keywords: [
-    "préstamos personales",
-    "préstamo vehicular",
+    "préstamos personales Perú",
+    "préstamo personal al instante",
+    "préstamo con garantía vehicular",
     "crédito rápido Perú",
-    "garantía de auto",
-    "Procustodia",
+    "préstamo sin dejar auto",
+    "desembolso en 24 horas",
     "financiera Perú",
     "CRÉDITOS YADIEL",
-    "CRÉDITOS YADIEL",
     "crédito al instante",
-    "dinero rápido",
+    "dinero rápido Lima",
+    "préstamos online Perú",
     "RUC 20611453281",
   ],
   authors: [{ name: "CRÉDITOS YADIEL" }],
+  creator: "CRÉDITOS YADIEL",
+  publisher: "CRÉDITOS YADIEL",
   metadataBase: new URL("https://creditosyadiel.vercel.app"),
   icons: {
     icon: [
@@ -54,28 +57,34 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "CRÉDITOS YADIEL — Tu Solución Financiera de Confianza",
+    title: "CRÉDITOS YADIEL — Préstamos Personales al Instante | Desembolso en 24h",
     description:
-      "Préstamos personales al instante y préstamos con garantía vehicular. Tu aliado financiero confiable en Perú.",
+      "Obtén tu préstamo personal al instante desde S/1,000 hasta S/50,000. También préstamos con garantía vehicular sin dejar de usar tu auto. Desembolso en 24 horas. CRÉDITOS YADIEL — RUC: 20611453281.",
     url: "https://creditosyadiel.vercel.app",
     siteName: "CRÉDITOS YADIEL",
     locale: "es_PE",
     type: "website",
     images: [
       {
-        url: "/og-image.webp",
+        url: "/og-image.webp?v=3",
         width: 1200,
         height: 630,
-        alt: "CRÉDITOS YADIEL — Préstamos Personales y Garantía Vehicular",
+        alt: "CRÉDITOS YADIEL — Préstamos Personales al Instante y Garantía Vehicular en Perú",
+        type: "image/webp",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CRÉDITOS YADIEL — Préstamos Rápidos y Seguros",
+    title: "CRÉDITOS YADIEL — Préstamos Personales al Instante | Desembolso en 24h",
     description:
-      "Consigue tu préstamo en minutos. Préstamos personales y con garantía vehicular.",
-    images: ["/og-image.webp"],
+      "Obtén tu préstamo personal desde S/1,000 hasta S/50,000. Garantía vehicular sin dejar tu auto. Desembolso en 24 horas. CRÉDITOS YADIEL.",
+    images: [
+      {
+        url: "/og-image.webp?v=3",
+        alt: "CRÉDITOS YADIEL — Préstamos Personales al Instante y Garantía Vehicular",
+      },
+    ],
   },
   manifest: "/manifest.webmanifest",
   robots: {
