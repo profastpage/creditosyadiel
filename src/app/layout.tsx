@@ -40,6 +40,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "CRÉDITOS YADIEL" }],
   metadataBase: new URL("https://creditosyadiel.vercel.app"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: "/apple-icon.png",
+  },
   alternates: {
     canonical: "/",
   },
