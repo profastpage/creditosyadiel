@@ -42,10 +42,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://creditosyadiel.vercel.app"),
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "48x48" },
-      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico?v=2", sizes: "32x32" },
+      { url: "/favicon-32x32.png?v=2", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png?v=2", type: "image/png", sizes: "16x16" },
+      { url: "/icon.png?v=2", type: "image/png", sizes: "512x512" },
     ],
-    apple: "/apple-icon.png",
+    apple: "/apple-icon.png?v=2",
+    shortcut: "/favicon.ico?v=2",
   },
   alternates: {
     canonical: "/",
@@ -74,6 +77,7 @@ export const metadata: Metadata = {
       "Consigue tu préstamo en minutos. Préstamos personales y con garantía vehicular.",
     images: ["/og-image.webp"],
   },
+  manifest: "/manifest.webmanifest",
   robots: {
     index: true,
     follow: true,
