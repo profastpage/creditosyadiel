@@ -20,17 +20,17 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "CRÉDITOS YADIEL — Préstamos Personales al Instante y Garantía Vehicular en Perú",
+    default: "CRÉDITOS YADIEL — Préstamos con Garantía Vehicular en Perú",
     template: "%s | CRÉDITOS YADIEL",
   },
   description:
-    "CRÉDITOS YADIEL — Préstamos personales al instante desde S/1,000 hasta S/50,000 y préstamos con garantía vehicular sin dejar de usar tu auto. Desembolso en 24 horas. RUC: 20611453281. Tu aliado financiero de confianza en Perú.",
+    "CRÉDITOS YADIEL — Préstamos con garantía vehicular sin dejar de usar tu auto. Precio a tratar. Desembolso en 24 horas. RUC: 20611453281. Tu aliado financiero de confianza en Perú.",
   keywords: [
-    "préstamos personales Perú",
-    "préstamo personal al instante",
+    "préstamos con garantía vehicular Perú",
+    "préstamo con garantía vehicular al instante",
     "préstamo con garantía vehicular",
     "crédito rápido Perú",
-    "préstamo sin dejar auto",
+    "préstamo con garantía vehicular",
     "desembolso en 24 horas",
     "financiera Perú",
     "CRÉDITOS YADIEL",
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "CRÉDITOS YADIEL — Préstamos Personales al Instante | Desembolso en 24h",
+    title: "CRÉDITOS YADIEL — Préstamos con Garantía Vehicular | Desembolso en 24h",
     description:
-      "Obtén tu préstamo personal al instante desde S/1,000 hasta S/50,000. También préstamos con garantía vehicular sin dejar de usar tu auto. Desembolso en 24 horas. CRÉDITOS YADIEL — RUC: 20611453281.",
+      "Obtén tu préstamo con garantía vehicular sin dejar de usar tu auto. Precio a tratar. Desembolso en 24 horas. CRÉDITOS YADIEL — RUC: 20611453281.",
     url: "https://creditosyadiel.vercel.app",
     siteName: "CRÉDITOS YADIEL",
     locale: "es_PE",
@@ -69,20 +69,20 @@ export const metadata: Metadata = {
         url: "/og-image.webp?v=3",
         width: 1200,
         height: 630,
-        alt: "CRÉDITOS YADIEL — Préstamos Personales al Instante y Garantía Vehicular en Perú",
+        alt: "CRÉDITOS YADIEL — Préstamos con Garantía Vehicular en Perú",
         type: "image/webp",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CRÉDITOS YADIEL — Préstamos Personales al Instante | Desembolso en 24h",
+    title: "CRÉDITOS YADIEL — Préstamos con Garantía Vehicular | Desembolso en 24h",
     description:
-      "Obtén tu préstamo personal desde S/1,000 hasta S/50,000. Garantía vehicular sin dejar tu auto. Desembolso en 24 horas. CRÉDITOS YADIEL.",
+      "Obtén tu préstamo con garantía vehicular sin dejar tu auto. Precio a tratar. Desembolso en 24 horas. CRÉDITOS YADIEL.",
     images: [
       {
         url: "/og-image.webp?v=3",
-        alt: "CRÉDITOS YADIEL — Préstamos Personales al Instante y Garantía Vehicular",
+        alt: "CRÉDITOS YADIEL — Préstamos con Garantía Vehicular",
       },
     ],
   },

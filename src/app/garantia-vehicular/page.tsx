@@ -19,7 +19,7 @@ import DeepLinking from "@/components/DeepLinking";
 export const metadata: Metadata = {
   title: "Préstamo con Garantía Vehicular",
   description:
-    "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia. Montos hasta S/ 100,000 con tasas competitivas. CRÉDITOS YADIEL.",
+    "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia. Precio a tratar según tu vehículo. CRÉDITOS YADIEL.",
   alternates: { canonical: "/garantia-vehicular" },
 };
 
@@ -41,8 +41,8 @@ const BENEFITS = [
   },
   {
     icon: Building2,
-    title: "Montos Hasta S/ 100,000",
-    desc: "Accede a montos significativos usando tu vehículo como respaldo. Tasas competitivas adaptadas a tu perfil crediticio.",
+    title: "Precio a Tratar",
+    desc: "Accede a montos según el valor de tu vehículo y tu perfil crediticio. Cotiza sin compromiso y recibe una oferta personalizada.",
   },
 ];
 
@@ -112,8 +112,8 @@ export default function GarantiaVehicularPage() {
               </h1>
               <p className="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed">
                 Usa tu vehículo como garantía sin dejar de usarlo. Alianza
-                estratégica con Procustodia para máxima seguridad. Montos hasta
-                S/ 100,000 con tasas competitivas.
+                estratégica con Procustodia para máxima seguridad. Precio a
+                tratar según tu vehículo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
                 <a

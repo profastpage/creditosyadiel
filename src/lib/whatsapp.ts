@@ -21,7 +21,7 @@ const WHATSAPP_MESSAGES: Record<WhatsAppContext, string> = {
   home:
     "Hola, vengo desde la página web y estoy interesado en un préstamo",
   "prestamos-personales":
-    "Hola CRÉDITOS YADIEL, me interesa conocer los requisitos para el préstamo personal al instante...",
+    "Hola CRÉDITOS YADIEL, me interesa cotizar un préstamo con garantía vehicular al instante...",
   "garantia-vehicular":
     "Hola CRÉDITOS YADIEL, deseo cotizar un préstamo usando mi auto como garantía sin dejar de usarlo...",
   nosotros:

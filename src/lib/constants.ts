@@ -14,18 +14,18 @@ export const SITE_CONFIG = {
   domain: "creditosyadiel.vercel.app",
   url: "https://creditosyadiel.vercel.app",
   description:
-    "Tu solución financiera fácil, rápida y segura. Préstamos personales al instante y préstamos con garantía vehicular sin dejar de usar tu auto. El momento es ahora.",
+    "Tu solución financiera fácil, rápida y segura. Préstamos con garantía vehicular sin dejar de usar tu auto. Precio a tratar. El momento es ahora.",
   keywords: [
-    "préstamos personales",
+    "préstamos con garantía vehicular",
     "préstamo vehicular",
     "crédito rápido",
     "garantía de auto",
     "Procustodia",
     "financiera Perú",
     "CRÉDITOS YADIEL",
-    "CRÉDITOS YADIEL",
     "crédito al instante",
     "dinero rápido",
+    "precio a tratar",
   ],
   ogImage: "/og-image.webp",
 } as const;
@@ -52,7 +52,7 @@ export const FAQ_ITEMS = [
   {
     question: "¿Necesito historial crediticio para acceder a un préstamo?",
     answer:
-      "No es indispensable. Evaluamos cada caso de manera individual, priorizando tu capacidad de pago actual. Entendemos que las circunstancias financieras varían, por lo que nuestro equipo de análisis realiza una evaluación integral que considera tus ingresos actuales, estabilidad laboral y otros factores relevantes para ofrecerte la mejor opción disponible según tu perfil.",
+      "No es indispensable. Evaluamos cada caso de manera individual, priorizando el valor de tu vehículo como garantía y tu capacidad de pago actual. Entendemos que las circunstancias financieras varían, por lo que nuestro equipo de análisis realiza una evaluación integral que considera tu vehículo, tus ingresos actuales y otros factores relevantes para ofrecerte la mejor opción disponible según tu perfil.",
   },
   {
     question: "¿Cuánto tiempo tarda el proceso de préstamo?",
@@ -67,7 +67,7 @@ export const FAQ_ITEMS = [
   {
     question: "¿Qué documentos necesito para solicitar un préstamo?",
     answer:
-      "Solo necesitas tu Documento de Identidad vigente (DNI), la Tarjeta de propiedad del vehículo (para préstamos vehiculares), un Recibo de servicio reciente (agua o luz) como comprobante de domicilio, e información sobre tus ingresos actuales. Nuestro equipo te guiará paso a paso para que el proceso sea lo más ágil posible.",
+      "Solo necesitas tu Documento de Identidad vigente (DNI), la Tarjeta de propiedad del vehículo, SOAT y revisión técnica vigentes, y un recibo de servicio reciente (agua o luz) como comprobante de domicilio. Todos nuestros préstamos requieren garantía vehicular. Nuestro equipo te guiará paso a paso para que el proceso sea lo más ágil posible.",
   },
 ] as const;
 
@@ -82,7 +82,7 @@ export const PROCESS_STEPS = [
     number: "02",
     title: "Presenta tu garantía y tasación",
     description:
-      "¿No tienes tasación? No te preocupes. Puedes obtenerla fácilmente con nuestro aliado Procustodia, líder en custodia vehicular en Perú.",
+      "Presenta tu vehículo como garantía. ¿No tienes tasación? No te preocupes, puedes obtenerla fácilmente con nuestro aliado Procustodia, líder en custodia vehicular en Perú.",
   },
   {
     number: "03",

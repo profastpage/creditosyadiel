@@ -107,8 +107,8 @@ function HeroSection() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="mt-6 text-lg sm:text-xl text-white/70 max-w-lg leading-relaxed"
             >
-              Consigue tu préstamo en minutos. Préstamos personales al instante
-              y con garantía vehicular, sin dejar de usar tu auto.
+              Consigue tu préstamo en minutos. Préstamos con garantía vehicular
+              sin dejar de usar tu auto. Precio a tratar.
             </motion.p>
 
             <motion.div
@@ -262,14 +262,14 @@ function ProductsSection() {
     {
       icon: Zap,
       title: "CON GARANTÍA",
-      subtitle: "AL INSTANTE",
+      subtitle: "VEHICULAR AL INSTANTE",
       href: "/prestamos-personales",
       whatsapp: "prestamos-personales" as const,
       gradient: "from-orange-600 to-red-700",
       image: "/images/personal-loan.webp",
-      imageAlt: "Préstamo personal al instante - CRÉDITOS YADIEL",
+      imageAlt: "Préstamo con garantía vehicular al instante - CRÉDITOS YADIEL",
       description:
-        "Préstamos personales rápidos sin complicaciones. Montos desde S/ 500 hasta S/ 20,000 con aprobación en menos de 24 horas.",
+        "Préstamos con garantía vehicular al instante. Usa tu auto como respaldo sin dejar de usarlo. Precio a tratar según tu vehículo.",
     },
     {
       icon: Car,
@@ -281,7 +281,7 @@ function ProductsSection() {
       image: "/images/car-drive.webp",
       imageAlt: "Préstamo con garantía vehicular - CRÉDITOS YADIEL",
       description:
-        "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia para mayor seguridad.",
+        "Usa tu auto como garantía sin dejar de usarlo. Alianza estratégica con Procustodia para mayor seguridad. Precio a tratar.",
     },
   ];
 
@@ -382,7 +382,7 @@ function FeaturesSection() {
     {
       icon: Zap,
       title: "Préstamos Rápidos",
-      desc: "Accede a tu dinero sin trámites complicados. Proceso ágil y digital para que obtengas tu préstamo en el menor tiempo posible.",
+      desc: "Accede a tu dinero con garantía vehicular. Proceso ágil y digital para que obtengas tu préstamo en el menor tiempo posible.",
     },
     {
       icon: Car,
@@ -392,7 +392,7 @@ function FeaturesSection() {
     {
       icon: ShieldCheck,
       title: "100% Transparente",
-      desc: "Sin letras pequeñas ni costos ocultos. Condiciones claras desde el primer momento para tu total tranquilidad.",
+      desc: "Precio a tratar. Sin letras pequeñas ni costos ocultos. Condiciones claras desde el primer momento para tu total tranquilidad.",
     },
     {
       icon: Users,

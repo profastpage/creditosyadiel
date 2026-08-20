@@ -80,8 +80,8 @@ export default function Calculadora() {
             </span>
           </h2>
           <p className="mt-4 text-sm text-slate-400 max-w-2xl mx-auto">
-            Simula tu préstamo de forma rápida y obtén una estimación
-            personalizada. Tu cotización no genera ningún compromiso.
+            Simula tu préstamo con garantía vehicular de forma rápida y obtén una estimación
+            personalizada. Precio a tratar — cotiza sin compromiso.
           </p>
         </motion.div>
 
@@ -97,7 +97,7 @@ export default function Calculadora() {
             {/* Loan Type Toggle */}
             <div className="flex rounded-2xl bg-white/[0.06] p-1.5 mb-8">
               {[
-                { type: "personal" as LoanType, label: "Préstamo Personal" },
+                { type: "personal" as LoanType, label: "Garantía Vehicular Express" },
                 { type: "vehicular" as LoanType, label: "Garantía Vehicular" },
               ].map((opt) => (
                 <button

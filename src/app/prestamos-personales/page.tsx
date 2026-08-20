@@ -17,9 +17,9 @@ import { getWhatsAppUrl } from "@/lib/whatsapp";
 import DeepLinking from "@/components/DeepLinking";
 
 export const metadata: Metadata = {
-  title: "Préstamos Personales al Instante",
+  title: "Préstamos con Garantía Vehicular al Instante",
   description:
-    "Obtén tu préstamo personal rápido y sin complicaciones. Montos desde S/ 500 hasta S/ 20,000 con aprobación en menos de 24 horas. CRÉDITOS YADIEL.",
+    "Obtén tu préstamo con garantía vehicular rápido y sin complicaciones. Precio a tratar según tu vehículo y perfil. Aprobación en menos de 24 horas. CRÉDITOS YADIEL.",
   alternates: { canonical: "/prestamos-personales" },
 };
 
@@ -32,7 +32,7 @@ const BENEFITS = [
   {
     icon: Banknote,
     title: "Montos Flexibles",
-    desc: "Accede a montos desde S/ 500 hasta S/ 20,000 según tu perfil y capacidad de pago. Elige el monto que mejor se adapte a tus necesidades financieras.",
+    desc: "Accede a montos según el valor de tu vehículo y tu capacidad de pago. Precio a tratar — cotiza sin compromiso y recibe una oferta personalizada.",
   },
   {
     icon: ShieldCheck,
@@ -48,27 +48,27 @@ const BENEFITS = [
 
 const REQUIREMENTS = [
   "Documento Nacional de Identidad (DNI) vigente",
+  "Tarjeta de propiedad del vehículo",
+  "SOAT y revisión técnica vigentes",
   "Recibo de servicio reciente (agua, luz o internet)",
-  "Información sobre tus ingresos actuales",
-  "Ser mayor de 18 años y menor de 65 años",
-  "No tener registros negativos en centrales de riesgo impeditivos",
+  "El vehículo no debe tener gravámenes ni pignoraciones",
 ];
 
 const STEPS = [
   {
     step: "01",
     title: "Envía tu Solicitud",
-    desc: "Comunícate con nosotros por WhatsApp o completa el formulario en línea con tus datos básicos. El proceso toma solo 5 minutos.",
+    desc: "Comunícate con nosotros por WhatsApp con los datos de tu vehículo. Te brindaremos una cotización personalizada en minutos.",
   },
   {
     step: "02",
-    title: "Evaluación Rápida",
-    desc: "Nuestro equipo analiza tu solicitud y tu capacidad de pago de forma integral. Te contactamos con la respuesta en menos de 24 horas.",
+    title: "Inspección y Evaluación",
+    desc: "Coordinamos una inspección técnica de tu vehículo. El proceso es rápido y profesional, sin costos ocultos.",
   },
   {
     step: "03",
     title: "Recepción de Fondos",
-    desc: "Una vez aprobado, el dinero se deposita directamente en tu cuenta bancaria. Sin demoras ni intermediarios.",
+    desc: "Una vez aprobado, el dinero se deposita directamente en tu cuenta bancaria. Tu auto se queda contigo.",
   },
 ];
 
@@ -100,19 +100,19 @@ export default function PrestamosPersonalesPage() {
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
                 <Zap className="w-4 h-4 text-amber-400" />
                 <span className="text-sm font-medium text-white/80">
-                  Préstamo Personal
+                  Préstamo con Garantía
                 </span>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.08] tracking-tight">
-                Préstamos al{" "}
+                Préstamos con Garantía{" "}
                 <span className="text-gold-metallic">
-                  Instante
+                  Vehicular
                 </span>
               </h1>
               <p className="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed">
-                Dinero rápido cuando más lo necesitas. Montos desde S/ 500
-                hasta S/ 20,000 con aprobación en menos de 24 horas. Sin
-                trámites complicados.
+                Dinero rápido cuando más lo necesitas. Usa tu auto como
+                garantía sin dejar de usarlo. Precio a tratar según tu
+                vehículo. Aprobación en menos de 24 horas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
                 <a
@@ -202,7 +202,7 @@ export default function PrestamosPersonalesPage() {
                   Requisitos <span className="text-[#C9A961]">Simples</span>
                 </h2>
                 <p className="text-slate-400 mb-8 leading-relaxed">
-                  Hemos simplificado nuestros requisitos al mínimo para que puedas acceder a tu préstamo de forma ágil. No necesitas avales ni garantías adicionales.
+                  Hemos simplificado nuestros requisitos al mínimo para que puedas acceder a tu préstamo con garantía vehicular de forma ágil. Solo necesitas tu vehículo como respaldo.
                 </p>
                 <ul className="space-y-4">
                   {REQUIREMENTS.map((req) => (
@@ -239,12 +239,12 @@ export default function PrestamosPersonalesPage() {
                     <p className="text-xs text-slate-400 mt-1">Documento Nacional de Identidad actualizado</p>
                   </div>
                   <div className="bg-white/[0.04] rounded-xl p-4 border border-white/5">
-                    <p className="text-sm font-semibold text-slate-200">Recibo de Servicio</p>
-                    <p className="text-xs text-slate-400 mt-1">Agua, luz o internet (no mayor a 2 meses)</p>
+                    <p className="text-sm font-semibold text-slate-200">Tarjeta de Propiedad</p>
+                    <p className="text-xs text-slate-400 mt-1">Del vehículo a usar como garantía</p>
                   </div>
                   <div className="bg-white/[0.04] rounded-xl p-4 border border-white/5">
-                    <p className="text-sm font-semibold text-slate-200">Información de Ingresos</p>
-                    <p className="text-xs text-slate-400 mt-1">Boletas, recibos por honorarios o declaraciones</p>
+                    <p className="text-sm font-semibold text-slate-200">SOAT y Revisión Técnica</p>
+                    <p className="text-xs text-slate-400 mt-1">Ambos deben estar vigentes</p>
                   </div>
                 </div>
               </div>
@@ -280,10 +280,10 @@ export default function PrestamosPersonalesPage() {
               <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#C9A961]/10 rounded-full blur-[80px] pointer-events-none" />
               <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#9A7B3E]/10 rounded-full blur-[80px] pointer-events-none" />
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gold-luxury tracking-tight">
-                ¿Listo para obtener tu préstamo?
+                ¿Listo para obtener tu préstamo con garantía?
               </h2>
               <p className="mt-4 text-lg text-white/70 max-w-xl mx-auto">
-                Habla con un asesor ahora y recibe tu aprobación hoy mismo.
+                Habla con un asesor ahora y recibe tu cotización personalizada. Precio a tratar.
               </p>
               <a
                 href={getWhatsAppUrl("prestamos-personales")}
@@ -291,7 +291,7 @@ export default function PrestamosPersonalesPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gold-metallic text-white px-10 py-4 rounded-2xl text-lg font-bold shadow-2xl shadow-orange-900/30 mt-8 transition-all duration-300 hover:scale-[1.03]"
               >
-                Solicitar Préstamo Personal
+                Cotizar Mi Préstamo
               </a>
             </div>
           </div>
