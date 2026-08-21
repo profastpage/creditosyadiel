@@ -83,7 +83,7 @@ export default function PrestamosPersonalesPage() {
           {/* Background Image */}
           <Image
             src="/hero-prestamos.webp"
-            alt="Préstamos personales al instante"
+            alt="Préstamos con garantía vehicular al instante"
             fill
             priority
             quality={75}
@@ -134,7 +134,7 @@ export default function PrestamosPersonalesPage() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/20">
                   <Image
                     src="/images/side-prestamos.webp"
-                    alt="Préstamo personal al instante - CRÉDITOS YADIEL"
+                    alt="Préstamo con garantía vehicular al instante - CRÉDITOS YADIEL"
                     width={480}
                     height={360}
                     className="w-full h-auto object-cover rounded-3xl"
@@ -164,7 +164,7 @@ export default function PrestamosPersonalesPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-12 text-center">
               ¿Por qué elegir nuestro{" "}
               <span className="text-gold-metallic">
-                préstamo personal
+                préstamo con garantía vehicular
               </span>
               ?
             </h2>
@@ -226,7 +226,7 @@ export default function PrestamosPersonalesPage() {
                 <div className="relative w-full h-48 rounded-2xl overflow-hidden mb-6">
                   <Image
                     src="/images/document-form.webp"
-                    alt="Documentos necesarios para préstamo personal"
+                    alt="Documentos necesarios para préstamo con garantía vehicular"
                     fill
                     className="object-cover"
                   />
@@ -259,7 +259,7 @@ export default function PrestamosPersonalesPage() {
               Proceso en <span className="text-[#C9A961]">3 Pasos</span>
             </h2>
             <p className="text-slate-400 text-center max-w-2xl mx-auto mb-12">
-              Solicitar tu préstamo personal nunca fue tan sencillo. Sigue estos tres pasos y obtén tu dinero.
+              Solicitar tu préstamo con garantía vehicular nunca fue tan sencillo. Sigue estos tres pasos y obtén tu dinero.
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               {STEPS.map((s) => (
@@ -280,7 +280,7 @@ export default function PrestamosPersonalesPage() {
               <div className="absolute -top-20 -left-20 w-60 h-60 bg-[#C9A961]/10 rounded-full blur-[80px] pointer-events-none" />
               <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-[#9A7B3E]/10 rounded-full blur-[80px] pointer-events-none" />
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gold-luxury tracking-tight">
-                ¿Listo para obtener tu préstamo con garantía?
+                ¿Listo para obtener tu préstamo con garantía vehicular?
               </h2>
               <p className="mt-4 text-lg text-white/70 max-w-xl mx-auto">
                 Habla con un asesor ahora y recibe tu cotización personalizada. Precio a tratar.

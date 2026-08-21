@@ -92,7 +92,7 @@ export default function Footer() {
                   href="/prestamos-personales"
                   className="text-sm text-slate-400 hover:text-white transition-colors duration-200"
                 >
-                  Préstamos Personales
+                  Garantía Vehicular Express
                 </Link>
               </li>
               <li>

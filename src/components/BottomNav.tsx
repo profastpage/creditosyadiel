@@ -26,7 +26,7 @@ type NavItem = {
 
 const NAV_ITEMS_LEFT: NavItem[] = [
   { label: "Inicio", href: "/", icon: Home },
-  { label: "Préstamos", href: "/prestamos-personales", icon: Wallet },
+  { label: "Express", href: "/prestamos-personales", icon: Wallet },
 ];
 
 const NAV_ITEMS_RIGHT: NavItem[] = [

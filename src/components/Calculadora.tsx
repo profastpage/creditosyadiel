@@ -140,8 +140,8 @@ export default function Calculadora() {
                 aria-label="Monto del préstamo"
               />
               <div className="flex justify-between mt-2 text-xs text-slate-400">
-                <span>{formatCurrency(range.min)}</span>
-                <span>{formatCurrency(range.max)}</span>
+                <span>Precio a tratar</span>
+                <span>Cotiza por WhatsApp</span>
               </div>
             </div>
 
@@ -253,8 +253,8 @@ export default function Calculadora() {
               },
               {
                 icon: TrendingUp,
-                title: "Tasas Competitivas",
-                desc: "Ofrecemos las mejores tasas del mercado adaptadas a tu perfil y capacidad de pago actual.",
+                title: "Precio a Tratar",
+                desc: "Cotiza sin compromiso y recibe una oferta personalizada según tu vehículo y perfil.",
                 color: "amber",
               },
             ].map((item, i) => (

@@ -36,7 +36,7 @@ interface FormData {
   telefono: string;
   email: string;
   direccion: string;
-  producto: "Préstamo Personal" | "Garantía Vehicular" | "Otro";
+  producto: "Préstamo con Garantía Vehicular" | "Otro";
   descripcion: string;
   pedido: string;
 }
@@ -49,7 +49,7 @@ const INITIAL_FORM: FormData = {
   telefono: "",
   email: "",
   direccion: "",
-  producto: "Préstamo Personal",
+  producto: "Préstamo con Garantía Vehicular",
   descripcion: "",
   pedido: "",
 };
@@ -538,11 +538,8 @@ export default function LibroDeReclamacionesPage() {
                     }
                     className="w-full rounded-xl border border-white/10 bg-white/[0.06] px-4 py-3 text-sm text-white focus:border-[#C9A961] focus:ring-2 focus:ring-[#C9A961]/20 outline-none transition-all duration-200"
                   >
-                    <option value="Préstamo Personal">
-                      Préstamo Personal
-                    </option>
-                    <option value="Garantía Vehicular">
-                      Garantía Vehicular
+                    <option value="Préstamo con Garantía Vehicular">
+                      Préstamo con Garantía Vehicular
                     </option>
                     <option value="Otro">Otro</option>
                   </select>

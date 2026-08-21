@@ -684,8 +684,8 @@ function BrandFullBleed() {
           </h2>
           <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-[#C9A961] to-transparent" />
           <p className="text-base sm:text-lg text-white/70 max-w-xl">
-            Préstamos personales al instante y con garantía vehicular.
-            Soluciones crediticias transparentes, rápidas y adaptadas a tus necesidades.
+            Préstamos con garantía vehicular al instante.
+            Soluciones crediticias transparentes, rápidas y adaptadas a tus necesidades. Precio a tratar.
           </p>
         </motion.div>
       </div>

@@ -32,7 +32,7 @@ export const SITE_CONFIG = {
 
 export const NAV_LINKS = [
   { label: "Inicio", href: "/" },
-  { label: "Préstamos al Instante", href: "/prestamos-personales" },
+  { label: "Garantía Vehicular Express", href: "/prestamos-personales" },
   { label: "Garantía Vehicular", href: "/garantia-vehicular" },
   { label: "Nosotros", href: "/nosotros" },
   { label: "Libro de Reclamaciones", href: "/libro-de-reclamaciones" },

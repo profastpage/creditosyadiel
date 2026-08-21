@@ -41,7 +41,7 @@ const WHATSAPP_MESSAGES: Record<WhatsAppContext, string> = {
 /** Display names for each section (used in dynamic WhatsApp messages) */
 const PAGE_DISPLAY_NAMES: Record<string, string> = {
   "/": "Inicio",
-  "/prestamos-personales": "Préstamos al Instante",
+  "/prestamos-personales": "Garantía Vehicular Express",
   "/garantia-vehicular": "Garantía Vehicular",
   "/nosotros": "Nosotros",
   "/libro-de-reclamaciones": "Libro de Reclamaciones",
